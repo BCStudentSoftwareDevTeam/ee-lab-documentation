@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-03-30T23:50:18.173Z
+date: 2023-03-30T23:52:28.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -25,7 +25,7 @@ Sensors can detect changes in the surrounding environment and convert them into 
 - [Light sensors *Coming soon*](/home/input/lightsensors)
 - [Motion sensors *Coming soon*](/home/input/motionsensors)
 - [Utrasonic sensors *An ultrasonic sensor is a type of sensor that uses sound waves with frequencies higher than the upper audible limit of human hearing (typically above 20 kHz) to detect the distance to, or presence of, an object.*](/home/input/utrasonicsensors)
-- [PhotoResistor Light Sensor *Coming soon*](/home/input/motionsensors)
+- [PhotoResistor Light Sensor *A photoresistor light sensor, also known as a photocell, is an electronic component that senses the amount of light in its environment and changes its resistance accordingly.*](/home/input/photoresistor)
 {.links-list}
 
 
