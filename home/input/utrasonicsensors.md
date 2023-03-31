@@ -2,7 +2,7 @@
 title: Ultrasonic sensors
 description: 
 published: true
-date: 2023-03-28T00:49:25.858Z
+date: 2023-03-31T00:27:57.742Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-28T00:37:39.813Z
@@ -14,18 +14,18 @@ An Ultrasonic sensor is a sensor that emits ultrasonic sensor that would reflect
 
 Here are some pictures taken of the sensor in our B16 lab:
 
-![image4.png](/image4.png)
+![image4.png](/image4.png =400x)
 
-![sensor.png](/sensor.png)
+![sensor.png](/sensor.png =400x)
 
 In the following images, we got the Ultrasonic sensor connected to Arduino and reporting back on the distance of the object in front of it:
 
-![breadboard.png](/breadboard.png)
+![breadboard.png](/breadboard.png =400x)
 
-![breadboard_1.png](/breadboard_1.png)
+![breadboard_1.png](/breadboard_1.png =400x)
 
 And here is how the console reports the distances ( in centimeters) :
-![serialmonitor.png](/serialmonitor.png)
+![serialmonitor.png](/serialmonitor.png =400x)
 
 Here is the Arduino code that made that happen:
 
@@ -61,7 +61,7 @@ void loop() {
 
 And here is a schematic of the necessary connections: 
 
-![schematic.png](/schematic.png)
+![schematic.png](/schematic.png =600x)
 
 GND  =====> GND
 Echo  =====> Digital Pin 10
