@@ -2,7 +2,7 @@
 title: Temperature & Humidity Sensors (Model DHT11, DHT22, AM2302)
 description: 
 published: true
-date: 2023-03-30T16:11:42.649Z
+date: 2023-03-31T00:25:20.918Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:11:44.129Z
@@ -31,14 +31,14 @@ After making the connections, it is time to download two libraries, so you can c
 #### METHOD 1
 The first thing you do when you are in Arduino is to click on tools and then manage libraries (figure below). Then, search “dht sensor library” for the first one and install the circled one below. Do the same thing for the second, but search “adafruit unified sensor.”
 
-![image10.png](/temperature_humidity/image10.png)
+![image10.png](/temperature_humidity/image10.png =500x)
 
 *For the “dht sensor library”*
 
-![image1.png](/temperature_humidity/image1.png)
+![image1.png](/temperature_humidity/image1.png =500x)
 
 *For the “adafruit unified sensor"*
-![image3.png](/temperature_humidity/image3.png)
+![image3.png](/temperature_humidity/image3.png =550x)
 
 
 #### METHOD 2
