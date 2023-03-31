@@ -2,7 +2,7 @@
 title: Temperature & Humidity Sensors (Model DHT11, DHT22, AM2302)
 description: 
 published: true
-date: 2023-03-31T00:25:20.918Z
+date: 2023-03-31T00:29:02.295Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:11:44.129Z
@@ -24,7 +24,7 @@ These sensors have 4 pins but you only have to worry about 3. The pins are numbe
 
 Here is a physical connection on a breadboard below. 
 
-![image5.png](/temperature_humidity/image5.png)
+![image5.png](/temperature_humidity/image5.png =700x)
 
 After making the connections, it is time to download two libraries, so you can code the sensors. There are two methods to download the libraries. Method one is used inside Arduino. Method two is downloading zip files and adding them to your Arduino library folder. 
 
