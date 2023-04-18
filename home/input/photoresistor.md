@@ -2,13 +2,15 @@
 title: PhotoResistor
 description: 
 published: true
-date: 2023-03-31T00:16:57.528Z
+date: 2023-04-18T23:53:17.431Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-31T00:16:57.528Z
 ---
 
-The photoresistor measures the resistance across the luminance of an object. The photo Resistor comes from the Prefix photo- which is measured for illuminance. The SI unit for lux and the SI unit for resistance is ohms.
+The Pulse Sensor is a well-designed low-power plug-and-play heart-rate sensor for the Arduino. The pulse sensor shines light through the skin and measures the reflection with the photodetector. The working of the sensor can be divided into two parts, one is heart rate measurement and another is blood oxygen level measurement.
+
+![image1.png](/pulsesensor/image1.png)
 
 ###### Materials
 - PhotoResistor x 1
@@ -16,6 +18,8 @@ The photoresistor measures the resistance across the luminance of an object. The
 - Jumper wires x 3
 -  Breadboard x 1
 -  Arduino Uno x 1
+
+In our lab, we used the Pulse sensor to generate graphs that indicate the cardiovascular performance of an individual However, please note that these pulse sensors are cheap and are not very precise.
 
 The setup will look like the following 
 ![image1.png](/photoresistor/image1.png =450x)
