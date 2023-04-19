@@ -2,7 +2,7 @@
 title: Output components 
 description: 
 published: true
-date: 2023-04-19T01:08:19.752Z
+date: 2023-04-19T01:10:17.373Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:18:43.410Z
