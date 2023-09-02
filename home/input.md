@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-04-19T01:01:38.742Z
+date: 2023-09-02T23:25:50.785Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -14,7 +14,7 @@ An input component is a device that allows the user to send a signal or data int
 ### Mechanical Inputs
 Mechanical components that can be utilized to open or close a circuit or activate specific functions within an electronic system.
 
-- [Switches  *Coming soon*](/home/input/switches)
+- [Switches  *Coming soon*](/home/input/switches)  
 
 - [Buttons *Coming soon*](/home/input/buttons)
 {.links-list}
