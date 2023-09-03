@@ -2,7 +2,7 @@
 title: Output components 
 description: 
 published: true
-date: 2023-04-19T01:10:17.373Z
+date: 2023-09-03T05:20:58.801Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:18:43.410Z
@@ -13,7 +13,7 @@ An output device in an electricity and electronics lab is a device that displays
 
 ## Visual Displays
 - [LED lights *coming soon*](/home/output/lcd) 
-- [Neopixel Strip *Neopixel LEDs are individually addressable LEDs all housed on a string that can be controlled from a single pin on a microcontroller. This means one pin can control all of the LEDs colors and which LEDs are on at any given time.*](/home/output/Neopixel) 
+- [Neopixel Strip *Neopixel LEDs are individually addressable LEDs all housed on a string that can be controlled from a single pin on a microcontroller. This means one pin can control all of the LEDs colors and which LEDs are on at any given time.*](/home/output/Neopixell) 
 - [Liquid Crystal Displays (LCD) *An LCD display (short for Liquid Crystal Display) is a type of flat-panel display used in many electronic devices such as televisions, computer monitors, and smartphones.*](/home/output/Led)
 - [Cathode Ray Tubes (CRTs) display *coming soon*](/home/output/crt)
 {.links-list}
