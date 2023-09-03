@@ -2,11 +2,83 @@
 title: Tilt Ball Switch
 description: 
 published: true
-date: 2023-09-03T04:02:07.536Z
+date: 2023-09-03T04:05:35.470Z
 tags: 
 editor: ckeditor
 dateCreated: 2023-09-03T04:02:07.536Z
 -->
 
 <p>In this document, you will learn how to use the gold tilt ball switches. It is pictured below followed by a link to the datasheet for the switch.</p>
-<figure class="image image_resized" style="width:220px;"><img src="https://lh6.googleusercontent.com/TEFWPGq_HGOh4CJnYTwQOh5IQ2b48qGb0jUfVYEsDiZ14JxKIWkIgj6XX_N68n00Sq867wMSrdloX74qbdRkYPTEiSyoWcdQKQAKQsE8cD7dj3BB6Bcq2hKA76zCx4jvFDluuJQ2kNj8oO_mPVJ82BY"></figure>
+<figure class="image image_resized" style="width:18.9%;"><img src="https://lh6.googleusercontent.com/TEFWPGq_HGOh4CJnYTwQOh5IQ2b48qGb0jUfVYEsDiZ14JxKIWkIgj6XX_N68n00Sq867wMSrdloX74qbdRkYPTEiSyoWcdQKQAKQsE8cD7dj3BB6Bcq2hKA76zCx4jvFDluuJQ2kNj8oO_mPVJ82BY"></figure>
+<p>Datasheet: <a href="https://cdn-learn.adafruit.com/downloads/pdf/tilt-sensor.pdf"><u>tilt-sensor.pdf (adafruit.com)</u></a></p>
+<p><br>&nbsp;</p>
+<p>Although there are multiple ways to use a tilt switch, we are going to use it to turn on and off an LED light. It just takes a few simple connections. We need a breadboard, arduino, sensor, LED, and 220-1k Ohm Resistor. Below are the connections. For the tilt switch the gold shorter wire is the negative side and the longer silver wire is the positive.</p>
+<figure class="image image_resized" style="width:409px;"><img src="https://lh3.googleusercontent.com/qBJJ7_TEsuVm7ho1NEJlenI99mYIV42_Fr_ItTNVKtco18yI_5GGknifKxWjrUulsxT2dqCtMItkfxqMAAk1-Io3OtnLpuu0AK3x-21zfJ-EOHBtXt6Gt5-OiLzH7849TQPwA39HZvbxJcWxJ6Q4BYA"></figure>
+<p>After we make the connections, we can upload the code needed for it to work. We can just copy the code below and upload it to the arduino:</p>
+<p>&nbsp;</p>
+<pre><code class="language-plaintext">int ledPin = 12;
+
+int sensorPin = 4;
+
+int sensorValue;
+
+int lastTiltState = HIGH; // the previous reading from the tilt sensor
+
+// the following variables are long's because the time, measured in miliseconds,
+
+// will quickly become a bigger number than can be stored in an int.
+
+long lastDebounceTime = 0; // the last time the output pin was toggled
+
+long debounceDelay = 50; // the debounce time; increase if the output flickers
+
+void setup(){
+
+pinMode(sensorPin, INPUT);
+
+digitalWrite(sensorPin, HIGH);
+
+pinMode(ledPin, OUTPUT);
+
+Serial.begin(9600);
+
+}
+
+void loop(){
+
+sensorValue = digitalRead(sensorPin);
+
+// If the switch changed, due to noise or pressing:
+
+if (sensorValue == lastTiltState) {
+
+// reset the debouncing timer
+
+lastDebounceTime = millis();
+
+}
+
+if ((millis() - lastDebounceTime) &gt; debounceDelay) {
+
+// whatever the reading is at, it's been there for longer
+
+// than the debounce delay, so take it as the actual current state:
+
+lastTiltState = sensorValue;
+
+}
+
+digitalWrite(ledPin, lastTiltState);
+
+Serial.println(sensorValue);
+
+delay(500);
+
+}</code></pre>
+<p>&nbsp;</p>
+<p>Now that the code is uploaded, it is time to test it. We want to open up the serial monitor to see if the orientation is returning a 0 or a 1. If it is a 0, the LED should be off and when we flip it it should turn on and return a 1 in the monitor. The serial monitor should look like below.&nbsp;</p>
+<p>&nbsp;</p>
+<figure class="image image_resized" style="width:533px;"><img src="https://lh3.googleusercontent.com/WFLV7JTKM9Q4Nbz1vQGeOpFcYlahtR3q4ra8NIAJrMBQ0dVXQzVGdNsO0I-w0sJy2KFXDC67SIameIvni-uNG2YufC3YIUTcKnNcoXXE8B6YdtJd7mayc7WBM455hDvfK3QSKKRgg-K4G9RCJGrYCg8"></figure>
+<p>Now, it is time to try it with different sensors to make cool projects.&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align:right;">Created By: Remington White</p>
