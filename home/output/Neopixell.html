@@ -1,0 +1,76 @@
+<!--
+title: Neopixel
+description: 
+published: true
+date: 2023-09-03T05:24:14.593Z
+tags: 
+editor: ckeditor
+dateCreated: 2023-09-03T05:24:14.593Z
+-->
+
+<p>The Neopixel RGB LED strip is a strip of LEDs that the color and brightness of each LED on the strip can be controlled individually. In this tutorial we are going to learn how to useArduino to control Neopixel RGB LED strips. To control all LEDs on the Neopixel strip, we just need to use a single Arduino pin.</p>
+<p><strong>REQUIRED MATERIALS</strong></p>
+<p>-Arduino Uno</p>
+<p>-Breadboard</p>
+<p>-Neopixel RGB LED Sensor strip</p>
+<p>-Wires</p>
+<p>-FTDI Cable</p>
+<p><strong>PICTURE OF SENSOR</strong></p>
+<figure class="image image_resized" style="width:624px;"><img src="https://lh5.googleusercontent.com/d_cpY09zzZA5ZrFAquW7xpH6L3ddSKgt-35hau3eNYCwLOCh4JcgioBjCuLvIYAwT_Ym7lv8yfrniUfDkcSb3cE0Xix6zgtURnHSaYav3yAtaxTZBh79KTckNcbWI8o7jg0f4Cts-H1CgNocOqsmwl0"></figure>
+<p><strong>NEOPIXEL SCHEMATICS</strong></p>
+<figure class="image image_resized" style="width:624px;"><img src="https://lh3.googleusercontent.com/pMHHItypUEUJhcQKBc7vDZJaMp5yivZHwS72YBHWVsvk-k5DrsEX0fCd40yOOAral_oCBjTLpvAEsVRr7XCJxl1wwo-y2jR0idyf60NA3BYIZRTfJnNg6BuSPXe3eti6CX1bSfd5OD6hIuH7XW0F1tM"></figure>
+<p><strong>PIN ORIENTATION</strong></p>
+<p>Black wire - GND</p>
+<p>Red wire - 5V</p>
+<p>Yellow wire - D6</p>
+<p><strong>LIBRARIES</strong></p>
+<p>Adafruit Neopixel Library by Adafruit</p>
+<p>https://github.com/adafruit/Adafruit_NeoPixel</p>
+<p>To find them, click <strong>“Sketch”</strong> at the top left hand corner of the screen, go down the list and click on <strong>“Include Library”</strong>. Then click on <strong>“Manage Libraries”</strong> or <strong>“Ctrl+Shift+I”</strong>. From there just search for the Libraries mentioned above and download them.</p>
+<p><strong>CODE</strong></p>
+<pre><code class="language-plaintext">#include &lt;Adafruit_NeoPixel.h&gt;
+
+int LEDPIN = 6;
+
+int NUMPIXELS = 8;
+
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, LEDPIN, NEO_GRB + NEO_KHZ800);
+
+int delayval = 500; 
+void setup() {
+  pixels.begin(); 
+}
+
+void loop() {
+
+  pixels.setPixelColor(0, pixels.Color(150,0,0)); 
+  pixels.setPixelColor(1, pixels.Color(0,150,0)); 
+  pixels.setPixelColor(2, pixels.Color(0,0,150)); 
+  pixels.setPixelColor(3, pixels.Color(50,50,50)); 
+  pixels.setPixelColor(4, pixels.Color(0,0,0)); 
+  pixels.setPixelColor(5, pixels.Color(25,25,25)); 
+  pixels.setPixelColor(6, pixels.Color(90,50,170)); 
+  pixels.setPixelColor(7, pixels.Color(150,50,0)); 
+  
+  pixels.show(); 
+
+  delay(delayval); 
+ 
+  pixels.setPixelColor(0, pixels.Color(75,0,75)); 
+  pixels.setPixelColor(1, pixels.Color(75,75,0)); 
+  pixels.setPixelColor(2, 0,&nbsp; 75, 75); 
+  pixels.setPixelColor(3, 100,100,100); 
+  pixels.setPixelColor(4, 0x661133); 
+  pixels.setPixelColor(5, 0x054411); 
+  pixels.setPixelColor(6, pixels.ColorHSV(20,100,100)); 
+  pixels.setPixelColor(7, pixels.ColorHSV(75,25,25));
+  
+
+  pixels.show(); 
+
+  delay(delayval); 
+
+}</code></pre>
+<p><strong>YOUTUBE TUTORIAL</strong></p>
+<p><a href="https://www.youtube.com/watch?v=mliaJrkme2U"><strong><u>https://www.youtube.com/watch?v=mliaJrkme2U</u></strong></a></p>
+<p><strong>&nbsp;</strong></p>
