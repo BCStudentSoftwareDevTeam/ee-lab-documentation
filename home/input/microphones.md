@@ -2,7 +2,7 @@
 title: Microphones
 description: 
 published: true
-date: 2023-04-18T23:59:08.555Z
+date: 2023-09-03T05:28:35.432Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:15:10.732Z
