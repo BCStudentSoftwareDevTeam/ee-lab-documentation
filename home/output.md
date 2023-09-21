@@ -2,7 +2,7 @@
 title: Output components 
 description: 
 published: true
-date: 2023-09-03T05:25:05.140Z
+date: 2023-09-21T23:35:42.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:18:43.410Z
@@ -22,6 +22,7 @@ An output device in an electricity and electronics lab is a device that displays
 - [Speakers *coming soon*](/home/output/speakers) 
 - [Headphones *coming soon*](/home/output/headphones)
 - [Solar panel *coming soon*](/home/output/solarpanel) 
+- [Audio Amplifier *A Project to design, and print an Audio Amplifier*](/home/output/audioamplifier)
 {.links-list}
 
 ## Recording devices
