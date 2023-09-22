@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-22T00:22:01.946Z
+date: 2023-09-22T00:58:02.665Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -79,11 +79,11 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 <!---
 Add nineth image
 -->
-6. A new window will appear, hit “Start”. The software will automatically connect all the traces for you. Once the analysis is complete, choose any routing variant that is marked “100%” complete. You must click “End Job” to close the window, otherwise, you won’t be able to run other autoroutes.
+6. A new window will appear, hit “Start”. The software will automatically connect all the traces for you. Once the analysis is complete, choose any routing variant that is marked “100%” complete. You ***must click “End Job”*** to close the window, otherwise, you won’t be able to run other autoroutes.
 <!---
 Add tenth image
 -->
-7. DRC check. Open DRC again, click “Check”. Make sure there are no errors popping up. In the status bar, you should see “DRC: No errors.”
+7. DRC check. Open DRC again, click “Check”. Make sure there are no errors popping up. In the **status bar**, you should see “DRC: No errors.”
 
 ***Part 5***
 
