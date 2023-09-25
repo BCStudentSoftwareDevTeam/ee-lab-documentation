@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-22T00:58:02.665Z
+date: 2023-09-25T18:59:00.270Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
