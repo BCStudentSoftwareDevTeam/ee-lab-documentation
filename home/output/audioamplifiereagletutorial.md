@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-25T18:59:00.270Z
+date: 2023-09-25T19:17:53.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -18,9 +18,7 @@ Eagle allows us to do two main things: Create schematics, and use those schemati
 3. In the pop-up, click the ".BRD" button under the "Electrical Design Files" heading. 
 4. The file will download to your computer, probably in your "Downloads" Folder inside your user directory. The file extension should be .brd for the file. 
 5. Head back to Eagle now. In the Control Panel, there is a left-hand menu. Click Projects >> projects:
-<!---
-Add first image
--->
+![image_1_eagle.png](/image_1_eagle.png)
 6. Copy or move the .brd file downloaded in Step 4 into the projects folder shown above (the easiest way is to drag it from your Downloads folder and drop it onto the projects folder). 
 7. In the Eagle Control Panel, double-click the board file. You should see a new window appear with the title starting as "1 - Board - ...".
 
@@ -32,6 +30,7 @@ In Part 1 , you learned how to export layouts from TinkerCAD to Eagle. For this 
 <!---
 Add second image
 -->
+![image_2_eagle_ttt.png](/image_2_eagle_ttt.png)
 - Icons on the left side of the software are some common ***functions*** such as delete, move, mirror. 
 - You may also type “delete”, “move” in the ***Command line*** to use these functions.
 - Pay attention to the ***status bar*** at the bottom; it gives you hints about how to perform certain actions. For example, when I choose the Move function, the status bar will show: “Left-click to select the object to move”. Hit “Esc” to exit the current function.
