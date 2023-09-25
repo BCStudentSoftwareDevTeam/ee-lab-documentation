@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-25T19:17:53.308Z
+date: 2023-09-25T19:18:03.121Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -27,9 +27,6 @@ In Part 1 , you learned how to export layouts from TinkerCAD to Eagle. For this 
 1. Head BACK to TinkerCAD and go to the circuit you created with the three resistors in 4.4. 
 2. Recall from “Check out your first PCB Layout” section in Part 1. Export an Eagle “.BRD” file from the TinkerCAD and open it in Eagle software.  **Make sure you save this PCB layout, we will use it for Part 3 next week.**
 3. Learn about the software user interface: 
-<!---
-Add second image
--->
 ![image_2_eagle_ttt.png](/image_2_eagle_ttt.png)
 - Icons on the left side of the software are some common ***functions*** such as delete, move, mirror. 
 - You may also type “delete”, “move” in the ***Command line*** to use these functions.
