@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-25T19:18:03.121Z
+date: 2023-09-25T19:45:51.427Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -33,13 +33,8 @@ In Part 1 , you learned how to export layouts from TinkerCAD to Eagle. For this 
 - Pay attention to the ***status bar*** at the bottom; it gives you hints about how to perform certain actions. For example, when I choose the Move function, the status bar will show: “Left-click to select the object to move”. Hit “Esc” to exit the current function.
 - ***Airwire*** shows potential connections between components. They need to be replaced by copper wires to make real electrical connections in the software. 
 - The golden wire around the components (rectangular shape) are ***board outline***. It indicates the dimension of your board.
-- This symbol <!---
-Add the third image
---> represents the ***origin***, or (0, 0), of the board. I suggest putting the bottom left corner of the board on this point.
-- Eagle uses a unit called “***mil***” to represent distance. A mil is 1/1000 of an inch, or 1000 mil is 1 inch. You can see your mouse’s current location coordinates in the top left corner, in mils:
-<!---
-Add forth and fifth image
--->
+- This symbol ![image_3_eagle.png](/image_3_eagle.png) represents the ***origin***, or (0, 0), of the board. I suggest putting the bottom left corner of the board on this point.
+- Eagle uses a unit called “***mil***” to represent distance. A mil is 1/1000 of an inch, or 1000 mil is 1 inch. You can see your mouse’s current location coordinates in the top left corner, in mils: ![image_4_eagle.png](/image_4_eagle.png) ![image_5_eagle.png](/image_5_eagle.png)
 4. Click the “move” function  or type “move” in the command line. Find the resistor you want to move, and ***left click*** on the “+” on the resistor symbol to pick up the component. After picking up the component, you may ***Right click*** to rotate the component or drag your mouse to move the components. ***Left click*** to confirm the change.  Move all the components to the left corner. Below is an example of a 2 resistor circuit; ***you should have 3 resistors***. 
 5. Use the same move function to shrink the yellow board outline as shown below. (I am using 2 resistors as an example here; ***you should have 3 resistors***) 
 
