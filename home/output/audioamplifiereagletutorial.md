@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-26T19:24:29.331Z
+date: 2023-09-26T19:31:54.257Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -61,17 +61,13 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. In Part 3, you learned how to connect components with copper traces manually in layout software. For this homework, we will learn how to perform an Autoroute.
 1. Head back to TinkerCAD and go to the parallel circuit you created for circuit 4.
-2. Download EAGLE .BDR file and open it in EAGLE software. 
-3. Load up the tad265.drc file you downloaded in A03. (Very, very important!) 
+2. Download EAGLE **.BDR** file and open it in EAGLE software. 
+3. Load up the **tad265.drc** file you downloaded in A03. (Very, very important!) 
 4. Move and rotate components to make the board smaller. Adjust the board outline just like you did in Part 2.
-5. connect components with ***copper wires***. Select “AutoRoute” . In the setup window, make sure to select “N/A” for Top and “Auto” for Bottom. Click “Continue…”. A new window will appear, hit “***Start***”.
-<!---
-Add nineth image
--->
+5. connect components with ***copper wires***. Select “AutoRoute”![image_11_eagle.png](/image_11_eagle.png). In the setup window, make sure to select “N/A” for Top and “Auto” for Bottom. Click “Continue…”. A new window will appear, hit “***Start***”.
+![image_12_eagle.png](/image_12_eagle.png)
 6. A new window will appear, hit “Start”. The software will automatically connect all the traces for you. Once the analysis is complete, choose any routing variant that is marked “100%” complete. You ***must click “End Job”*** to close the window, otherwise, you won’t be able to run other autoroutes.
-<!---
-Add tenth image
--->
+![image_13_eagle.png](/image_13_eagle.png)
 7. DRC check. Open DRC again, click “Check”. Make sure there are no errors popping up. In the **status bar**, you should see “DRC: No errors.”
 
 ***Part 5***
