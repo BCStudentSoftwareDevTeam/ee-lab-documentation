@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-26T18:24:25.120Z
+date: 2023-09-26T19:24:29.331Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -23,39 +23,40 @@ Eagle allows us to do two main things: Create schematics, and use those schemati
 7. In the Eagle Control Panel, double-click the board file. You should see a new window appear with the title starting as "1 - Board - ...".
 
 ***Part 2:***
-In Part 1 , you learned how to export layouts from TinkerCAD to Eagle. For this homework, we will learn how to edit the layout. 
+In Part 1, you learned how to export layouts from TinkerCAD to Eagle. For this homework, we will learn how to edit the layout. 
 1. Head BACK to TinkerCAD and go to the circuit you created with the three resistors in 4.4. 
 2. Recall from “Check out your first PCB Layout” section in Part 1. Export an Eagle “.BRD” file from the TinkerCAD and open it in Eagle software.  **Make sure you save this PCB layout, we will use it for Part 3 next week.**
 3. Learn about the software user interface: 
 ![image_2_eagle_ttt.png](/image_2_eagle_ttt.png)
-4. Icons on the left side of the software are some common ***functions*** such as delete, move, mirror. 
-5. You may also type “delete”, “move” in the ***Command line*** to use these functions.
-6. Pay attention to the ***status bar*** at the bottom; it gives you hints about how to perform certain actions. For example, when I choose the Move function, the status bar will show: “Left-click to select the object to move”. Hit “Esc” to exit the current function.
-7. ***Airwire*** shows potential connections between components. They need to be replaced by copper wires to make real electrical connections in the software. 
-8. The golden wire around the components (rectangular shape) are ***board outline***. It indicates the dimension of your board.
-9. This symbol ![image_3_eagle.png](/image_3_eagle.png) represents the ***origin***, or (0, 0), of the board. I suggest putting the bottom left corner of the board on this point.
-10. Eagle uses a unit called “***mil***” to represent distance. A mil is 1/1000 of an inch, or 1000 mil is 1 inch. You can see your mouse’s current location coordinates in the top left corner, in mils: ![image_4_eagle.png](/image_4_eagle.png) ![image_5_eagle.png](/image_5_eagle.png)
-11. Click the “move” function ![image_6_eagle.png](/image_6_eagle.png)or type “move” in the command line. Find the resistor you want to move, and ***left click*** on the “+” on the resistor symbol to pick up the component. After picking up the component, you may ***Right click*** to rotate the component or drag your mouse to move the components. ***Left click*** to confirm the change.  Move all the components to the left corner. Below is an example of a 2 resistor circuit; ***you should have 3 resistors***. 
-12. Use the same move function to shrink the yellow board outline as shown below. (I am using 2 resistors as an example here; ***you should have 3 resistors***) 
+- Icons on the left side of the software are some common ***functions*** such as delete, move, mirror. 
+- You may also type “delete”, “move” in the ***Command line*** to use these functions.
+- Pay attention to the ***status bar*** at the bottom; it gives you hints about how to perform certain actions. For example, when I choose the Move function, the status bar will show: “Left-click to select the object to move”. Hit “Esc” to exit the current function.
+- ***Airwire*** shows potential connections between components. They need to be replaced by copper wires to make real electrical connections in the software. 
+- The golden wire around the components (rectangular shape) are ***board outline***. It indicates the dimension of your board.
+- This symbol ![image_3_eagle.png](/image_3_eagle.png) represents the ***origin***, or (0, 0), of the board. I suggest putting the bottom left corner of the board on this point.
+- Eagle uses a unit called “***mil***” to represent distance. A mil is 1/1000 of an inch, or 1000 mil is 1 inch. You can see your mouse’s current location coordinates in the top left corner, in mils: ![image_4_eagle.png](/image_4_eagle.png) ![image_5_eagle.png](/image_5_eagle.png)
+- Click the “move” function ![image_6_eagle.png](/image_6_eagle.png)or type “move” in the command line. Find the resistor you want to move, and ***left click*** on the “+” on the resistor symbol to pick up the component. After picking up the component, you may ***Right click*** to rotate the component or drag your mouse to move the components. ***Left click*** to confirm the change.  Move all the components to the left corner. Below is an example of a 2 resistor circuit; ***you should have 3 resistors***. 
+- Use the same move function to shrink the yellow board outline as shown below. (I am using 2 resistors as an example here; ***you should have 3 resistors***) 
 ![image_7_eagle.png](/image_7_eagle.png)
 ***Part 3***
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. For this homework, we will learn how to connect components with copper traces in the layout software. 
+<!---
+1. placeholder to fix number Markdown issue
+1. -->
 1. Open your A02 Eagle Layout in Eagle.
 2.  Load up a Design Rules Check (***DRC***) file. This file makes sure you’re following a set of rules about how far apart components are from each other, among other things. We will provide you with a  tad265 DRC file that is configured correctly for our PCB fabrication machine (PCB mill).   Download the tad265 DRC file: tad265 DRC. (Very very important!) and save the file to: "***Documents\EAGLE\design*** rules" in the Eagle Control Panel.
-3.  Click “DRC” on the left bottom corner. (or go to “Tools-> DRC”):
+-  Click “DRC” on the left bottom corner. (or go to “Tools-> DRC”):
 ![image_8_eagle.png](/image_8_eagle.png)
-4.  Click Load…and choose the ***tad265_drc.dru*** file you just downloaded. Click ***Apply***.
-5.  Make sure the left corner of DRC window should show ***“DRC(tad265_drc)”***
-<!---
-1. Add seventh image
-1. -->
-6.  - Close the DRC window!
+-  Click Load…and choose the ***tad265_drc.dru*** file you just downloaded. Click ***Apply***.
+-  Make sure the left corner of DRC window should show ***“DRC(tad265_drc)”***
+![image_9_eagle.png](/image_9_eagle.png)
+-  Close the DRC window!
 7.  Connect components with ***copper wires***. Select “Route”  or go to “Edit-> Route”. Click and follow the yellow airwires to connect components (I am using 2 resistors as an example here; ***you should have 3 resistors***). 
-  <!---
-1. Add eighth image
-1. -->
+![image_10_eagle.png](/image_10_eagle.png) 
 8. DRC check. Open the DRC window again. Click “Check”. Make sure there is no error popped up. In the ***status bar***, you should see “DR4C: No errors.”
-
+<!---
+1. placeholder for proper number formatting 
+1. -->
 ***Part 4***
 
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. In Part 3, you learned how to connect components with copper traces manually in layout software. For this homework, we will learn how to perform an Autoroute.
