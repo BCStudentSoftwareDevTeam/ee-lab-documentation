@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-26T19:31:54.257Z
+date: 2023-09-26T19:34:20.271Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -71,10 +71,12 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 7. DRC check. Open DRC again, click “Check”. Make sure there are no errors popping up. In the **status bar**, you should see “DRC: No errors.”
 
 ***Part 5***
-
+<!---
+1. placeholder for proper number formatting 
+1. -->
 In the past assignments, we learned how to download a schematic from TinkerCAD and export to EAGLE. If we would like to edit the Schematic, we would have to change the design in TinkerCAD, download a new .brd file and start over. In this assignment, we would like to show you how to create a schematic in Eagle software which can be converted into a .brd file. These two documents will be synchronized, i.e. whatever you changed in schematic will automatically apply to the PCB layout.  
 
-Here is my demonstration video and a tutorial from Sparkfun which will help explain any of the steps below:
+Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](https://learn.sparkfun.com/tutorials/using-eagle-schematic) from Sparkfun which will help explain any of the steps below:
 
 Eagle typically opens up to the Control Panel. Under the “Projects” tab are two folders: projects and examples. The projects folder is where you’ll create all new projects. Start by creating a new project named “A05” by right clicking the projects folder and selecting “New Project”. 
 Make sure the green circle is next to your project. This means that project is the Active project. When we have multiple files, as this little green indicator links them all together. 
