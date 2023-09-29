@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-26T19:50:23.841Z
+date: 2023-09-29T00:15:09.797Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -88,13 +88,11 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 ![image_15_eagle.png](/image_15_eagle.png)
 - Parts are found under the Add button: 
 - Parts are organized in libraries and sub-libraries based on their type or manufacturer. Until you’ve used Eagle a lot, finding parts is kind of a pain. This table should help find every part in the above schematic:
-Schematic ID, Library, Part Name, Part Description, R1, R2, R3, R4, and R5, rcl/R-US_, R-US_0207/12, Resistors, +9V, battery, AB9V, 9V Battery symbol. GND, Supply 2, GND, Circuit ground
-
-
-- Wires are called “Nets” in Eagle, and are green in the schematic (not to be confused with lines, which do not provide connectivity in the diagram; it’ll matter later). There are two ways to use nets; Press the Nets button (), or simply type “nets” and hit enter.
+![image_16_eagle.png](/image_16_eagle.png)
+- Wires are called “Nets” in Eagle, and are green in the schematic (not to be confused with lines, which do not provide connectivity in the diagram; it’ll matter later). There are two ways to use nets; Press the Nets button (![image_17_eagle.png](/image_17_eagle.png)), or simply type “nets” and hit enter.
 
 - Nets need to connect to parts. It’s easy to create a net that appears to connect to a part, but doesn’t. Anytime you’re creating nets, make sure you see the green circle, which means you are connecting the net to the part.
-
+![image_18_eagle.png](/image_18_eagle.png)
 - Nets also need to connect to other nets. Nets sometimes need to cross paths, but not connect. Be sure you can identify the difference:
 	
 - Eagle works in “Modes”. For example, if you’re in creating nets mode, you can’t move parts. To exit a mode, hit ESC on your keyboard, then select the next mode. By default, you’re in “Move” mode, which lets you select and move parts and nets. Other modes include rotate, mirror, delete, and many more.
