@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-29T00:15:09.797Z
+date: 2023-09-29T00:16:20.335Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -94,7 +94,7 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 - Nets need to connect to parts. It’s easy to create a net that appears to connect to a part, but doesn’t. Anytime you’re creating nets, make sure you see the green circle, which means you are connecting the net to the part.
 ![image_18_eagle.png](/image_18_eagle.png)
 - Nets also need to connect to other nets. Nets sometimes need to cross paths, but not connect. Be sure you can identify the difference:
-	
+![image_19_eagle.png](/image_19_eagle.png)
 - Eagle works in “Modes”. For example, if you’re in creating nets mode, you can’t move parts. To exit a mode, hit ESC on your keyboard, then select the next mode. By default, you’re in “Move” mode, which lets you select and move parts and nets. Other modes include rotate, mirror, delete, and many more.
 - Once you have completed your schematic, run an  “ERC” (Electrical Rule Checking) check to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
 7. From your finished schematic, click the “Switch to board” button  in the taskbar. It will ask you to create a new .brd file. Click yes.  It will open the PCB layout window. Make sure DO NOT close the schematic window. Save the .brd file (Click File >> Save). You should see a new file called a05_combination_username.brd file automatically generated in the project file. 
