@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-29T00:16:20.335Z
+date: 2023-09-29T18:10:11.067Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -83,10 +83,10 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 3. In the project, create a new schematic:
 ![image_14_eagle.png](/image_14_eagle.png)
 4. This automatically opens the schematic editor, where you can create a new schematic.
-5. Save your schematic. Give it a filename a05_combination_username.sch, where username is replaced with your username.
+5. Save your schematic. Give it a filename **a05_combination_username.sch**, where username is replaced with your username.
 6. Create the following schematic (see below the schematic for some hints that’ll help you find parts and use the software):
 ![image_15_eagle.png](/image_15_eagle.png)
-- Parts are found under the Add button: 
+- Parts are found under the Add button:      									![image_15_1_eagle.png](/image_15_1_eagle.png)
 - Parts are organized in libraries and sub-libraries based on their type or manufacturer. Until you’ve used Eagle a lot, finding parts is kind of a pain. This table should help find every part in the above schematic:
 ![image_16_eagle.png](/image_16_eagle.png)
 - Wires are called “Nets” in Eagle, and are green in the schematic (not to be confused with lines, which do not provide connectivity in the diagram; it’ll matter later). There are two ways to use nets; Press the Nets button (![image_17_eagle.png](/image_17_eagle.png)), or simply type “nets” and hit enter.
@@ -95,9 +95,9 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 ![image_18_eagle.png](/image_18_eagle.png)
 - Nets also need to connect to other nets. Nets sometimes need to cross paths, but not connect. Be sure you can identify the difference:
 ![image_19_eagle.png](/image_19_eagle.png)
-- Eagle works in “Modes”. For example, if you’re in creating nets mode, you can’t move parts. To exit a mode, hit ESC on your keyboard, then select the next mode. By default, you’re in “Move” mode, which lets you select and move parts and nets. Other modes include rotate, mirror, delete, and many more.
-- Once you have completed your schematic, run an  “ERC” (Electrical Rule Checking) check to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
-7. From your finished schematic, click the “Switch to board” button  in the taskbar. It will ask you to create a new .brd file. Click yes.  It will open the PCB layout window. Make sure DO NOT close the schematic window. Save the .brd file (Click File >> Save). You should see a new file called a05_combination_username.brd file automatically generated in the project file. 
+- Eagle works in “Modes”. For example, if you’re in creating nets mode, you can’t move parts. To exit a mode, hit **ESC** on your keyboard, then select the next mode. By default, you’re in “Move” mode, which lets you select and move parts and nets. Other modes include rotate, mirror, delete, and many more.
+- Once you have completed your schematic, run an "**ERC**” (Electrical Rule Checking) check to see if you have bad connections. Click “Tools -> ERC” to make sure you have **0 Errors**. 
+7. From your finished schematic, click the “Switch to board” button  in the taskbar. It will ask you to create a new .brd file. Click yes.  It will open the PCB layout window. Make sure <span style="color:red">**DO NOT**</span> close the schematic window. Save the .brd file (Click File >> Save). You should see a new file called a05_combination_username.brd file automatically generated in the project file. 
 
 
 The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization. In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
