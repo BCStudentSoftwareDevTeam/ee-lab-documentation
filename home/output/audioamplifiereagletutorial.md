@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-29T18:12:41.309Z
+date: 2023-09-29T18:50:08.964Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -98,9 +98,9 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 - Eagle works in “Modes”. For example, if you’re in creating nets mode, you can’t move parts. To exit a mode, hit **ESC** on your keyboard, then select the next mode. By default, you’re in “Move” mode, which lets you select and move parts and nets. Other modes include rotate, mirror, delete, and many more.
 - Once you have completed your schematic, run an "**ERC**” (Electrical Rule Checking) check to see if you have bad connections. Click “Tools -> ERC” to make sure you have **0 Errors**. 
 7. From your finished schematic, click the “Switch to board” button  in the taskbar. It will ask you to create a new .brd file. Click yes.  It will open the PCB layout window. Make sure <span style="color:red">**DO NOT**</span> close the schematic window. Save the .brd file (Click File >> Save). You should see a new file called a05_combination_username.brd file automatically generated in the project file. 
+![image_20_eagle.png](/image_20_eagle.png)
 
-
-**The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization**. In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
+**The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization.** In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
 
 Important Rules!
 
