@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-09-29T18:10:11.067Z
+date: 2023-09-29T18:12:41.309Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -100,24 +100,26 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 7. From your finished schematic, click the “Switch to board” button  in the taskbar. It will ask you to create a new .brd file. Click yes.  It will open the PCB layout window. Make sure <span style="color:red">**DO NOT**</span> close the schematic window. Save the .brd file (Click File >> Save). You should see a new file called a05_combination_username.brd file automatically generated in the project file. 
 
 
-The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization. In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
+**The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization**. In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
+
 Important Rules!
+
 There is a link between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic won’t be reflected on the physical board, and your layout will be useless. 
 
 These two files are linked automatically, but it is easy to accidentally break that link. Here’s how to ensure you don’t do that:
-Rule #1: In the Control Panel, make sure the green dot is lit next to your project by clicking it:
+- **Rule #1**: In the Control Panel, make sure the green dot is lit next to your project by clicking it:
 
 
-If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
+	If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
 
-Rule #2: When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
+- **Rule #2**: When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
 
-If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
+	If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
 
-Rule #3: Keep the file names the same, except for the extension:
+- **Rule #3**: Keep the file names the same, except for the extension:
 		
-If you change one, change them both. They are linked by their filename, and changing one will break the link. 
-Rule #4: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
+	If you change one, change them both. They are linked by their filename, and changing one will break the link. 
+- **Rule #4**: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 
 Part 6
 Recall from Assignment Part 5, to draw a schematic in Eagle, you need to first create a “New Project” named “Par 6”. You may also review my demonstration video here. In the project, create a new schematic named “a06_AudioAmplifier_username.sch” where the username is replaced with your username. 
