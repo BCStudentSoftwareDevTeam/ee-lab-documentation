@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T19:38:38.582Z
+date: 2023-10-03T19:38:50.463Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -120,7 +120,7 @@ These two files are linked automatically, but it is easy to accidentally break t
 	If you change one, change them both. They are linked by their filename, and changing one will break the link. 
 - **Rule #4**: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 
-Part 6
+**Part 6**
 Recall from Assignment Part 5, to draw a schematic in Eagle, you need to first create a “**New Project**” named “**Part 6**”. You may also review my demonstration video here. In the project, create a new schematic named “**a06_AudioAmplifier_username.sch**” where the username is replaced with your username. 
 
 Create the schematic for the Audio Amplifier as shown in Figure 1 below. Here is the video from [Part 5](https://youtu.be/qm8M5Q1QJYA) and [tutorial](https://learn.sparkfun.com/tutorials/using-eagle-schematic) from Sparkfun. 
