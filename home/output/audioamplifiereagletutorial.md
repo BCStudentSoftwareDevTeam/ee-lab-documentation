@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T19:41:44.698Z
+date: 2023-10-03T19:42:43.118Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -136,7 +136,7 @@ The table below will help you find every part in the Schematic.
 Once you find all the components, use “rotate” and “move” to properly locate your components. Use the “**net**” tool to wire them together. Once you complete the schematic wiring, we need to assign values to these parts. 
 You can assign values through the  “Parts” windows. 
 
-
+![image_26_eagle.png](/image_26_eagle.png)
 Double click on R1 and the software will highlight the R1 resistor in the schematic. The “Properties” window will pop up. 
 Put 470 in the “value” section. Hit “OK”. 
 Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
