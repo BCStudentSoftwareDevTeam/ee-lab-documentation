@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T19:38:50.463Z
+date: 2023-10-03T19:41:44.698Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -125,58 +125,15 @@ Recall from Assignment Part 5, to draw a schematic in Eagle, you need to first c
 
 Create the schematic for the Audio Amplifier as shown in Figure 1 below. Here is the video from [Part 5](https://youtu.be/qm8M5Q1QJYA) and [tutorial](https://learn.sparkfun.com/tutorials/using-eagle-schematic) from Sparkfun. 
 
-
+![image_24_eagle.png](/image_24_eagle.png)
 Figure 1: Schematic for the Audio Amplifier
 
 The table below will help you find every part in the Schematic. 
 
-Schematic ID
-Library
-Part Name
-Part Description
-R1, R3
-rcl/R-US_
-R-US_0207/10
-Resistors
-IC1
-linear
-LM386N-1
-Integrated amplifier circuit
-R2
-pot
-TRIM_US-CA6V
-Potentiometer (aka variable resistor)
-C1, C2, C4
-rcl/C-US
-C-US025-025X050
-Ceramic Capacitors
-C3
-rcl/CPOL-US
-CPOL-USE2,5-6E
-Electrolytic Caps
-S1
-switch
-M251
-Sliding Switch
-LED1
-led
-SFH482
-Light Emitting Diode
-+9V 
-battery
-AB9V
-9V Battery symbol. 
-GND
-Supply 2
-GND
-Circuit ground
-Input/Speaker
-pinhead
-PINHD-1x2
-Female pin header
+![image_25_eagle.png](/image_25_eagle.png)
 
 
-Once you find all the components, use “rotate” and “move” to properly locate your components. Use the “net” tool to wire them together. Once you complete the schematic wiring, we need to assign values to these parts. 
+Once you find all the components, use “rotate” and “move” to properly locate your components. Use the “**net**” tool to wire them together. Once you complete the schematic wiring, we need to assign values to these parts. 
 You can assign values through the  “Parts” windows. 
 
 
