@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T19:35:06.124Z
+date: 2023-10-03T19:38:38.582Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -108,16 +108,15 @@ There is a **link** between your board and your schematic, so if you change one,
 
 These two files are linked automatically, but it is easy to accidentally break that link. Here’s how to ensure you don’t do that:
 - **Rule #1**: In the Control Panel, make sure the green dot is lit next to your project by clicking it:
-
-
-	If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
+![image_21_eagle.png](/image_21_eagle.png)
+- If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
 
 - **Rule #2**: When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
-
-	If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
+![image_22_eagle.png](/image_22_eagle.png)
+-	If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
 
 - **Rule #3**: Keep the file names the same, except for the extension:
-		
+		![image_23_eagle.png](/image_23_eagle.png)
 	If you change one, change them both. They are linked by their filename, and changing one will break the link. 
 - **Rule #4**: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 
