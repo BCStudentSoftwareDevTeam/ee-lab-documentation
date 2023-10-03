@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-02T20:48:11.742Z
+date: 2023-10-03T19:35:06.124Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -104,7 +104,7 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 
 Important Rules!
 
-There is a link between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic won’t be reflected on the physical board, and your layout will be useless. 
+There is a **link** between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic **won’t** be reflected on the physical board, and your layout will be useless. 
 
 These two files are linked automatically, but it is easy to accidentally break that link. Here’s how to ensure you don’t do that:
 - **Rule #1**: In the Control Panel, make sure the green dot is lit next to your project by clicking it:
