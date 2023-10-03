@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T19:42:43.118Z
+date: 2023-10-03T21:43:50.548Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -126,7 +126,7 @@ Recall from Assignment Part 5, to draw a schematic in Eagle, you need to first c
 Create the schematic for the Audio Amplifier as shown in Figure 1 below. Here is the video from [Part 5](https://youtu.be/qm8M5Q1QJYA) and [tutorial](https://learn.sparkfun.com/tutorials/using-eagle-schematic) from Sparkfun. 
 
 ![image_24_eagle.png](/image_24_eagle.png)
-Figure 1: Schematic for the Audio Amplifier
+Schematic for the Audio Amplifier
 
 The table below will help you find every part in the Schematic. 
 
@@ -137,11 +137,11 @@ Once you find all the components, use “rotate” and “move” to properly lo
 You can assign values through the  “Parts” windows. 
 
 ![image_26_eagle.png](/image_26_eagle.png)
-Double click on R1 and the software will highlight the R1 resistor in the schematic. The “Properties” window will pop up. 
-Put 470 in the “value” section. Hit “OK”. 
-Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
-Right click on the Ground node (Wires that connected to GND), select properties make sure the Net name is GND
-You may choose “ERC” to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
+- Double click on **R1** and the software will highlight the R1 resistor in the schematic. The “Properties” window will pop up. 
+- Put 470 in the “value” section. Hit “OK”. 
+- Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
+- Right click on the Ground node (Wires that connected to GND), select properties make sure the Net name is GND
+- You may choose “ERC” to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
  
 Eagle Layout
 From your finished schematic, click the “Switch to board” button  in the taskbar to create the PCB layout. We discussed the synchronization between Schematic and Layout in A05. Before we go too far, let’s talk about some important rules so you don’t waste your time. 
