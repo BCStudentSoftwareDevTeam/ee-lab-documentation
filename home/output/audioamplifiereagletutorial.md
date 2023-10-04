@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-04T18:41:41.666Z
+date: 2023-10-04T19:39:49.426Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -62,7 +62,7 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. In Part 3, you learned how to connect components with copper traces manually in layout software. For this homework, we will learn how to perform an Autoroute.
 1. Head back to TinkerCAD and go to the parallel circuit you created for circuit 4.
 2. Download EAGLE **.BDR** file and open it in EAGLE software. 
-3. Load up the **tad265.drc** file you downloaded in A03. (Very, very important!) 
+3. Load up the **tad265.drc** file you downloaded in A03. <span style="color:red">**(Very, very important!)**<span>
 4. Move and rotate components to make the board smaller. Adjust the board outline just like you did in Part 2.
 5. connect components with ***copper wires***. Select “AutoRoute”![image_11_eagle.png](/image_11_eagle.png). In the setup window, make sure to select “N/A” for Top and “Auto” for Bottom. Click “Continue…”. A new window will appear, hit “***Start***”.
 ![image_12_eagle.png](/image_12_eagle.png)
