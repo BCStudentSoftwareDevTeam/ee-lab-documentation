@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-03T21:43:50.548Z
+date: 2023-10-04T18:17:56.900Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -137,11 +137,11 @@ Once you find all the components, use “rotate” and “move” to properly lo
 You can assign values through the  “Parts” windows. 
 
 ![image_26_eagle.png](/image_26_eagle.png)
-- Double click on **R1** and the software will highlight the R1 resistor in the schematic. The “Properties” window will pop up. 
-- Put 470 in the “value” section. Hit “OK”. 
-- Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
-- Right click on the Ground node (Wires that connected to GND), select properties make sure the Net name is GND
-- You may choose “ERC” to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
+1. Double click on **R1** and the software will highlight the R1 resistor in the schematic. The “**Properties**” window will pop up. 
+2. Put **470** in the “**value**” section. Hit “OK”. 
+3. Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
+4. Right click on the Ground node (Wires that connected to GND), select properties make sure the Net name is GND
+5. You may choose “ERC” to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. 
  
 Eagle Layout
 From your finished schematic, click the “Switch to board” button  in the taskbar to create the PCB layout. We discussed the synchronization between Schematic and Layout in A05. Before we go too far, let’s talk about some important rules so you don’t waste your time. 
