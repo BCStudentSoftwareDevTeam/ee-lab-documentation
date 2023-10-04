@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-04T18:22:16.168Z
+date: 2023-10-04T18:41:41.666Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -148,7 +148,8 @@ You can assign values through the  “Parts” windows.
  ![image_26_eagle.png](/image_26_eagle.png)
 ### Eagle Layout
 From your finished schematic, click the “Switch to board” button  in the taskbar to create the PCB layout. We discussed the synchronization between Schematic and Layout in A05. Before we go too far, let’s talk about some important rules so you don’t waste your time. 
-Important Rules!
+
+==Important Rules!==
 There is a link between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic won’t be reflected on the physical board, and your layout will be useless. 
 
 These two files are linked automatically, but it is easy to accidentally break that link. Here’s how to ensure you don’t do that:
