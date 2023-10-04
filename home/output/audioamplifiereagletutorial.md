@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-04T18:19:24.571Z
+date: 2023-10-04T18:22:11.030Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -121,6 +121,9 @@ These two files are linked automatically, but it is easy to accidentally break t
 - **Rule #4**: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 
 **Part 6**
+<!---
+1. placeholder for proper number formatting 
+1. -->
 Recall from Assignment Part 5, to draw a schematic in Eagle, you need to first create a “**New Project**” named “**Part 6**”. You may also review my demonstration video here. In the project, create a new schematic named “**a06_AudioAmplifier_username.sch**” where the username is replaced with your username. 
 
 Create the schematic for the Audio Amplifier as shown in Figure 1 below. Here is the video from [Part 5](https://youtu.be/qm8M5Q1QJYA) and [tutorial](https://learn.sparkfun.com/tutorials/using-eagle-schematic) from Sparkfun. 
@@ -140,9 +143,9 @@ You can assign values through the  “Parts” windows.
 1. Double click on **R1** and the software will highlight the R1 resistor in the schematic. The “**Properties**” window will pop up. 
 2. Put **470** in the “**value**” section. Hit “OK”. 
 3. Assign values to R1-R3, C1, C2 and the variable resistors based on the schematic above. You can also change the designation name through the “properties” window. For example, I changed the name for AB9V to “9V”. You don’t have to change it, it’s up to you. Pick names that it’s easy for you and your teammates to understand. 
-4. Right click on the Ground node (Wires that connected to GND), select properties make sure the Net name is GND
+4. Right click on the **Ground** node (Wires that connected to **GND**), select properties **make sure the Net name is GND**
 5. **You may choose “ERC” to see if you have bad connections. Click “Tools -> ERC” to make sure you have 0 Errors. **
- 
+ ![image_26_eagle.png](/image_26_eagle.png)
 ### Eagle Layout
 From your finished schematic, click the “Switch to board” button  in the taskbar to create the PCB layout. We discussed the synchronization between Schematic and Layout in A05. Before we go too far, let’s talk about some important rules so you don’t waste your time. 
 Important Rules!
