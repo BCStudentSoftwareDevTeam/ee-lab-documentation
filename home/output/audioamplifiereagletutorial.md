@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-04T19:39:49.426Z
+date: 2023-10-05T18:29:15.843Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -183,7 +183,7 @@ Change width to 20.
 
 	
 
-Tips: 
+**Tips: **
 Unlike the schematic, as you route you’ll want to avoid crossing wires. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
 Similarly, the green pads represent where components will be connected to the board, known as pads. These pads are electrically conductive too, so you don’t want to have a route going over a pad, unless it’s meant to connect there. Each pad typically has a drill hole in the middle, where your component will be mounted.
 Most of the time, the software is smart enough that won’t let you route with a cross wire or going through a pad. However, when you move a wired component, the trace will be moved and could cross a pad or another trace. DRC check will help you figure that out. 
