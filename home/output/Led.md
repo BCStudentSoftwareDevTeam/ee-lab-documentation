@@ -2,7 +2,7 @@
 title: Liquid Crystal Display (LCDs)
 description: 
 published: true
-date: 2023-10-11T19:42:14.548Z
+date: 2023-10-11T19:43:07.717Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:20:00.781Z
@@ -14,7 +14,7 @@ An LCD (Liquid Crystal Display) is a type of flat panel display which uses liqui
 
 Here are some pictures taken of the sensor in our B16 lab:
 <img src="/lcd_photos/lcd_front.png" alt="drawing" width="500"/>
-![lcd_front.png](/lcd_photos/lcd_front.png) `(fig 1)`
+[] #![lcd_front.png](/lcd_photos/lcd_front.png)# `(fig 1)`
 
 There are usually 2 models of LCD Display. However, both of them have the same design on the front (Fig-1):
 ![lcd_back_(1).png](/lcd_photos/lcd_back_(1).png)
