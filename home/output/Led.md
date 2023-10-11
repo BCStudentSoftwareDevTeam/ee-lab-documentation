@@ -2,7 +2,7 @@
 title: Liquid Crystal Display (LCDs)
 description: 
 published: true
-date: 2023-10-11T19:46:33.109Z
+date: 2023-10-11T19:49:23.171Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:20:00.781Z
@@ -20,15 +20,16 @@ Here are some pictures taken of the sensor in our B16 lab:
 There are usually 2 models of LCD Display. However, both of them have the same design on the front (Fig-1):
 <img src="/lcd_photos/lcd_back_(1).png" alt="drawing" width="500"/> 
 `(fig 2)`
-<!-- #![lcd_front.png](/lcd_photos/lcd_front.png)# `(fig 1)` -->
+<!-- #![/lcd_photos/lcd_back_(1).png](/lcd_photos/lcd_back_(1).png)# `(fig 2)` -->
 
 But the design on the back is a bit different; there are models with 16 pins ( Fig-2 ) and others with 4 pins `(Fig-3)`.
-
-![lcd_back_(2).png](/lcd_photos/lcd_back_(2).png)`(Fig 3)`
+<img src="/lcd_photos/lcd_back_(2).png" alt="drawing" width="500"/> 
+`(Fig 3)`
+<!--![lcd_back_(2).png](/lcd_photos/lcd_back_(2).png)`(Fig 3)`-->
 
 In the following images, we got an LCD Display connected with an Arduino printing “Hello World”:
-
-![breadboard.png](/lcd_photos/breadboard.png)
+<img src="/lcd_photos/breadboard.png" alt="drawing" width="500"/> 
+<!--![breadboard.png](/lcd_photos/breadboard.png)-->
 
 Here is a the Arduino code implementation of the LCD  (1):
 
