@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:06:41.239Z
+date: 2023-10-12T17:07:49.791Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -153,7 +153,7 @@ From your finished schematic, click the “Switch to board” button ![image_28_
 There is a link between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic won’t be reflected on the physical board, and your layout will be useless. 
 
 These two files are linked automatically, but it is easy to accidentally break that link. Here’s how to ensure you don’t do that:
-In the Control Panel, make sure the green dot is lit next to your project by clicking it:
+**Rule #1.** In the Control Panel, make sure the green dot is lit next to your project by clicking it:
 		
 If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
 When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
