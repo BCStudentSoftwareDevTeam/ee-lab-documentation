@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:30:55.618Z
+date: 2023-10-12T17:36:51.577Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -185,11 +185,11 @@ In the past assignments, we have learned several Eagle layout functions includin
 **Change width to 20.**
 ![image_35_eagle.png](/image_35_eagle.png)
 **Tips:**
-Unlike the schematic, as you route you’ll want to avoid crossing wires. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
-Similarly, the green pads represent where components will be connected to the board, known as pads. These pads are electrically conductive too, so you don’t want to have a route going over a pad, unless it’s meant to connect there. Each pad typically has a drill hole in the middle, where your component will be mounted.
-Most of the time, the software is smart enough that won’t let you route with a cross wire or going through a pad. However, when you move a wired component, the trace will be moved and could cross a pad or another trace. DRC check will help you figure that out. 
-
-In both of the cases above, you also want to leave clearance between pads, routes, and the board edge. This is because the circuit mill is not perfectly accurate, and may sometimes cut too close to a pad or route, creating an open circuit. As we know, openings are bad. Not as bad as shorts, but still bad.
+- Unlike the schematic, as you route you’ll want to **avoid crossing wires**. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
+- Similarly, the green pads represent where components will be connected to the board, known as pads. These pads are electrically conductive too, so you don’t want to have a route going over a pad, unless it’s meant to connect there. Each pad typically has a drill hole in the middle, where your component will be mounted.
+   - Most of the time, the software is smart enough that won’t let you route with a cross wire or going through a pad. However, when you move a wired component, the trace will be moved and could cross a pad or another trace. DRC check will help you figure that out. 
+![image_37_eagle.png](/image_37_eagle.png)
+   - In both of the cases above, you also want to leave clearance between pads, routes, and the board edge. This is because the circuit mill is not perfectly accurate, and may sometimes cut too close to a pad or route, creating an open circuit. As we know, openings are bad. Not as bad as shorts, but still bad.
 Step 5: Copper pour
 You’ll also want to add a copper pour, which reduces the amount of cutting the mill has to do, as well as creates a large, grounded area on the board to reduce the possible noise in the system. To do this:
 Go back to Layout, and select the polygon tool: 
