@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:50:35.842Z
+date: 2023-10-12T17:51:32.769Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -208,8 +208,8 @@ Once you have your board 100% routed, we’ll want to run a design rules check (
 **Exporting your Board from Eagle**
 Do these steps after your layout is completed, 100% routed, and passes the DRC with no errors.
 
-First, download the following file:
-Tad-265.cam - Performs three CAM jobs:
+1. First, download the following file:
+[Tad-265.cam](https://drive.google.com/file/d/11lAfiN8KWnE8ihAwRKupx2Re8YnZWZ__/view?usp=sharing) - Performs three CAM jobs:
 Generates the drill holes file (Excellon)
 Generates the traces and pads file (Gerber)
 Generates the dimension of the board (Gerber)
