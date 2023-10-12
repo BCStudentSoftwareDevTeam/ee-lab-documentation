@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-05T18:29:15.843Z
+date: 2023-10-12T16:56:01.702Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -102,7 +102,7 @@ Here is my demonstration [video](https://youtu.be/qm8M5Q1QJYA) and a [tutorial](
 
 **The schematic window and PCB layout window will be synchronized, if you close one, you will lose the synchronization.** In the PCB layout windows, all components are packed on the left bottom corner with several yellow wires linked. These yellow wires are not actual wires, they are the “airwires” to show the connection based on your Schematic wiring. If you change the schematic wiring, the yellow connection will change. 
 
-Important Rules!
+==Important Rules!==
 
 There is a **link** between your board and your schematic, so if you change one, it’ll change them both. This is extremely important, because otherwise changes you make to your schematic **won’t** be reflected on the physical board, and your layout will be useless. 
 
