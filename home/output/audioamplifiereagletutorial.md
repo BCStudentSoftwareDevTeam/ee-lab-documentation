@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:16:18.883Z
+date: 2023-10-12T17:22:59.915Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -156,25 +156,28 @@ These two files are linked automatically, but it is easy to accidentally break t
 **Rule #1.** In the Control Panel, make sure the green dot is lit next to your project by clicking it:
 ![image_29_eagle.png](/image_29_eagle.png)
 If you don’t have a green dot at all, you didn’t create a project first. Make sure you create a project, then create a schematic inside the project. 
-**Rule #2.**When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
+**Rule #2.** When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
 ![image_30_eagle.png](/image_30_eagle.png)
 If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
-**Rule #3.**Keep the file names the same, except for the extension:
+**Rule #3.** Keep the file names the same, except for the extension:
 ![image_31_eagle.png](/image_31_eagle.png)
 If you change one, change them both. They are linked by their filename, and changing one will break the link.
-**Rule #4.**Always switch back and forth between the schematic and board using the quick button:![image_32_eagle.png](/image_32_eagle.png) . This ensures you are looking at the linked files (and not some other spurious file you may have created). 
-How to use Eagle Layout Editor
+**Rule #4.** Always switch back and forth between the schematic and board using the quick button:![image_32_eagle.png](/image_32_eagle.png) . This ensures you are looking at the linked files (and not some other spurious file you may have created). 
+  
+***How to use Eagle Layout Editor***
+  
 In the past assignments, we have learned several Eagle layout functions including rotation, adjust the size, apply DRC, manual route and auto route. In this assignment, you will use what you have learned so far to complete the Audio amplifier layout. You will also learn how to apply copper pour and how to export files for production. 
-Step 0: Save your .brd and .sch file, and save them often	
-Step 1: Loading up tad265 DRC file
-Recall A03 step 2. 
-Step 2: Resize of your board. 
-Recall from A02
-Your board should have a maximum dimensions of 1400mil x 1900mil. 
-Step 3: Move your components into the board outline
-Before moving the components into the board outline, think about how your board will look, for example, you may want to put a battery clip and Speaker at the edge of your board. 
-Refer to the schematic and move the components one by one into the board space.  (inside the white dimension box). For example, resistor R1 and LED D1 will be in series, so naturally, we would like to put them next to each other. Capacitor C2 is connected to Pin 7 of LM386, therefore, placing C2 next to Pin 7 is probably a good idea. Untangle the airwire as much as possible. 
-Step 4: Route the PCB board (Manual route or Auto route)
+ 
+- **Step 0**: Save your .brd and .sch file, and save them often	
+- Step 1: Loading up tad265 DRC file
+  - Recall Part 3 step 2. 
+- Step 2: Resize of your board. 
+  - Recall from Part 2
+  - Your board should have a maximum dimensions of 1400mil x 1900mil. 
+- Step 3: Move your components into the board outline
+   - Before moving the components into the board outline, think about how your board will look, for example, you may want to put a battery clip and Speaker at the edge of your board. 
+   - Refer to the schematic and move the components one by one into the board space.  (inside the white dimension box). For example, resistor R1 and LED D1 will be in series, so naturally, we would like to put them next to each other. Capacitor C2 is connected to Pin 7 of LM386, therefore, placing C2 next to Pin 7 is probably a good idea. Untangle the airwire as much as possible. 
+- Step 4: Route the PCB board (Manual route or Auto route)
 Method 1 - Autoroute: Recall A04 
 Method 2- manual route:  Recall from A03. To create routes, use the route icon  . Once you click the icon you’ll have new options in the taskbar at the top. Make sure these are set to the following before creating routes:
 
