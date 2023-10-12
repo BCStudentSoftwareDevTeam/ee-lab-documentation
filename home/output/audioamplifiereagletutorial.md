@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:14:58.494Z
+date: 2023-10-12T17:16:18.883Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -159,10 +159,10 @@ If you don’t have a green dot at all, you didn’t create a project first. Mak
 **Rule #2.**When you close one file (.sch or .brd), close them both. Don’t edit with one file closed! Eagle will warn you like this:
 ![image_30_eagle.png](/image_30_eagle.png)
 If you get this warning, open up both files and it should go away. DON’T make edits when this warning is displayed!
-Keep the file names the same, except for the extension:
-		
+**Rule #3.**Keep the file names the same, except for the extension:
+![image_31_eagle.png](/image_31_eagle.png)
 If you change one, change them both. They are linked by their filename, and changing one will break the link.
-Always switch back and forth between the schematic and board using the quick button: . This ensures you are looking at the linked files (and not some other spurious file you may have created). 
+**Rule #4.**Always switch back and forth between the schematic and board using the quick button:![image_32_eagle.png](/image_32_eagle.png) . This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 How to use Eagle Layout Editor
 In the past assignments, we have learned several Eagle layout functions including rotation, adjust the size, apply DRC, manual route and auto route. In this assignment, you will use what you have learned so far to complete the Audio amplifier layout. You will also learn how to apply copper pour and how to export files for production. 
 Step 0: Save your .brd and .sch file, and save them often	
