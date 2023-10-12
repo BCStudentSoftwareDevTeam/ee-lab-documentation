@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:45:49.508Z
+date: 2023-10-12T17:48:20.430Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -181,8 +181,8 @@ In the past assignments, we have learned several Eagle layout functions includin
   - ==**Method 1 - Autoroute: Recall Part 4**==
   - **Method 2 - Manual Route:  Recall from Part 3**. To create routes, use the route icon ![image_36_eagle.png](/image_36_eagle.png) . Once you click the icon you’ll have new options in the taskbar at **the top**. Make sure these are set to the following before creating routes:
 
-**Change “1 Top” to “16 Bottom”.**
-**Change width to 20.**
+  - **Change “1 Top” to “16 Bottom”.**
+  - **Change width to 20.**
 ![image_35_eagle.png](/image_35_eagle.png)
 **Tips:**
 - Unlike the schematic, as you route you’ll want to **avoid crossing wires**. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
@@ -200,11 +200,12 @@ You’ll also want to add a **copper pour**, which reduces the amount of cutting
    - Lastly, hit the ratsnest button ![image_39_eagle.png](/image_39_eagle.png). You should see a large blue section appear on the board. 
    - To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ```ripup GND;```  and hit enter. 
 - Step 7: DRC final check
-Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the DRC file (same one as before) to find places where your circuit has issues.
-If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
-If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes () and rerouting. You may also need to move around components, rotate them, etc. 
-Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar:  Alternatively, you can enter ripup * in the command prompt to do the same thing.
-Exporting your Board from Eagle
+Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the [DRC file](https://drive.google.com/file/d/14yaIoD3b_AxZsY02rPRMj3GIsdx3aoDL/view?usp=sharing) (same one as before) to find places where your circuit has issues.
+   - If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
+   - If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes () and rerouting. You may also need to move around components, rotate them, etc. 
+   - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar:  Alternatively, you can enter ripup * in the command prompt to do the same thing.
+  
+**Exporting your Board from Eagle**
 Do these steps after your layout is completed, 100% routed, and passes the DRC with no errors.
 
 First, download the following file:
