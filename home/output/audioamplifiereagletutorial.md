@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:36:51.577Z
+date: 2023-10-12T17:37:21.446Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -190,8 +190,8 @@ In the past assignments, we have learned several Eagle layout functions includin
    - Most of the time, the software is smart enough that won’t let you route with a cross wire or going through a pad. However, when you move a wired component, the trace will be moved and could cross a pad or another trace. DRC check will help you figure that out. 
 ![image_37_eagle.png](/image_37_eagle.png)
    - In both of the cases above, you also want to leave clearance between pads, routes, and the board edge. This is because the circuit mill is not perfectly accurate, and may sometimes cut too close to a pad or route, creating an open circuit. As we know, openings are bad. Not as bad as shorts, but still bad.
-Step 5: Copper pour
-You’ll also want to add a copper pour, which reduces the amount of cutting the mill has to do, as well as creates a large, grounded area on the board to reduce the possible noise in the system. To do this:
+- Step 5: Copper pour
+You’ll also want to add a **copper pour**, which reduces the amount of cutting the mill has to do, as well as creates a large, grounded area on the board to reduce the possible noise in the system. To do this:
 Go back to Layout, and select the polygon tool: 
 On the menu, switch “1 Top” to “16 Bottom” since everything is on the bottom layer of our board.
 Change the “Isolation” value to 20 (meaning there’ll be 20 mils between the copper pour and any traces that are not connected to it)
