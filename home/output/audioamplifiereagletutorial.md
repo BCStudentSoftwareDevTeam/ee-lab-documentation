@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:30:32.141Z
+date: 2023-10-12T17:30:55.618Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -183,7 +183,7 @@ In the past assignments, we have learned several Eagle layout functions includin
 
 **Change “1 Top” to “16 Bottom”.**
 **Change width to 20.**
-
+![image_35_eagle.png](/image_35_eagle.png)
 **Tips:**
 Unlike the schematic, as you route you’ll want to avoid crossing wires. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
 Similarly, the green pads represent where components will be connected to the board, known as pads. These pads are electrically conductive too, so you don’t want to have a route going over a pad, unless it’s meant to connect there. Each pad typically has a drill hole in the middle, where your component will be mounted.
