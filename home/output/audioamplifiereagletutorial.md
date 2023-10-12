@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:42:53.165Z
+date: 2023-10-12T17:45:49.508Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -198,8 +198,8 @@ You’ll also want to add a **copper pour**, which reduces the amount of cutting
    - Then, draw a polygon around the entire board.
    - ==When the polygon is closed, a “Signal Name:” dialog opens. Put **GND** in the text box.==
    - Lastly, hit the ratsnest button ![image_39_eagle.png](/image_39_eagle.png). You should see a large blue section appear on the board. 
-   - To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ripup GND;  and hit enter. 
-Step 7: DRC final check
+   - To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ```ripup GND;```  and hit enter. 
+- Step 7: DRC final check
 Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the DRC file (same one as before) to find places where your circuit has issues.
 If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
 If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes () and rerouting. You may also need to move around components, rotate them, etc. 
