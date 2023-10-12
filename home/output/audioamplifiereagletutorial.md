@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:51:32.769Z
+date: 2023-10-12T18:10:58.391Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -203,23 +203,23 @@ You’ll also want to add a **copper pour**, which reduces the amount of cutting
 Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the [DRC file](https://drive.google.com/file/d/14yaIoD3b_AxZsY02rPRMj3GIsdx3aoDL/view?usp=sharing) (same one as before) to find places where your circuit has issues.
    - If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
    - If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes (![image_40_eagle.png](/image_40_eagle.png)) and rerouting. You may also need to move around components, rotate them, etc. 
-   - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar: ![image_41_eagle.png](/image_41_eagle.png) Alternatively, you can enter ripup * in the command prompt to do the same thing.
+   - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar: ![image_41_eagle.png](/image_41_eagle.png) Alternatively, you can enter ```ripup *``` in the command prompt to do the same thing.
   
 **Exporting your Board from Eagle**
 Do these steps after your layout is completed, 100% routed, and passes the DRC with no errors.
 
 1. First, download the following file:
-[Tad-265.cam](https://drive.google.com/file/d/11lAfiN8KWnE8ihAwRKupx2Re8YnZWZ__/view?usp=sharing) - Performs three CAM jobs:
-Generates the drill holes file (Excellon)
-Generates the traces and pads file (Gerber)
-Generates the dimension of the board (Gerber)
-In Eagle, open the layout of your board (.brd).
-Under File, open the Cam Processor.
-Open up the CAM job downloaded above:
-	
-In the left hand section titled “Output files”, click each of the files for a06 (e.g., a06_username_drills, etc). Replace username in each of those files with your username.
-In the bottom left, hit “Select Board”. Select your amplifier board.
-Hit Process job. 
+ 			a. [Tad-265.cam](https://drive.google.com/file/d/11lAfiN8KWnE8ihAwRKupx2Re8YnZWZ__/view?usp=sharing) - Performs three CAM jobs:
+				  i. Generates the drill holes file (Excellon)
+           ii. Generates the traces and pads file (Gerber)
+						iii. Generates the dimension of the board (Gerber)
+1. In Eagle, open the layout of your board (.brd).
+1. Under File, open the Cam Processor.
+1. Open up the CAM job downloaded above:
+![image_42_eagle.png](/image_42_eagle.png)
+1. In the left hand section titled “Output files”, click each of the files for a06 (e.g., a06_username_drills, etc). Replace username in each of those files with your username.
+1. In the bottom left, hit “Select Board”. Select your amplifier board.
+1. Hit Process job. 
 
 File exports are now complete. You should see three new files in your project: 2 Gerber (gbr) files, and 1 Excellon (xln) file. Take note of where those are located. You can close Eagle now. These files you generated will be imported in the PhCNC software later, which operates the mill. 
 
