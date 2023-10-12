@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:40:54.789Z
+date: 2023-10-12T17:42:53.165Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -196,7 +196,7 @@ You’ll also want to add a **copper pour**, which reduces the amount of cutting
    - On the menu, switch “**1 Top**” to “**16 Bottom**” since everything is on the bottom layer of our board.
    - Change the “Isolation” value to 20 (meaning there’ll be 20 mils between the copper pour and any traces that are not connected to it)
    - Then, draw a polygon around the entire board.
-   - ==When the polygon is closed, a “Signal Name:” dialog opens. Put GND in the text box.==
+   - ==When the polygon is closed, a “Signal Name:” dialog opens. Put **GND** in the text box.==
    - Lastly, hit the ratsnest button ![image_39_eagle.png](/image_39_eagle.png). You should see a large blue section appear on the board. 
    - To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ripup GND;  and hit enter. 
 Step 7: DRC final check
