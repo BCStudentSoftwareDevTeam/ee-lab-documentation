@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T18:11:24.204Z
+date: 2023-10-12T18:11:38.464Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -223,4 +223,4 @@ Do these steps after your layout is completed, 100% routed, and passes the DRC w
 
 File exports are now complete. You should see three new files in your project: 2 Gerber (gbr) files, and 1 Excellon (xln) file. Take note of where those are located. You can close Eagle now. These files you generated will be imported in the PhCNC software later, which operates the mill. 
 
-In [this](https://drive.google.com/drive/folders/1lRYX5cFQvaPrekrMSOOH_8z50eqvxCPz?usp=sharing) Google Drive folder, create a new folder with your username, and copy your 2 gerber files (dim and copper) and 1 Excellon file (xln) into your folder. Finally, copy our schematic (sch) and board (brd) files from Eagle. 
+In [this](https://drive.google.com/drive/folders/1lRYX5cFQvaPrekrMSOOH_8z50eqvxCPz?usp=sharing) Google Drive folder, ==create a new folder with your username==, and copy your 2 gerber files (dim and copper) and 1 Excellon file (xln) into your folder. Finally, copy our schematic (sch) and board (brd) files from Eagle. 
