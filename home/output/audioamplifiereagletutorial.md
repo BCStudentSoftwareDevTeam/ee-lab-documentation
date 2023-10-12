@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:22:59.915Z
+date: 2023-10-12T17:27:41.784Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -175,11 +175,11 @@ In the past assignments, we have learned several Eagle layout functions includin
   - Recall from Part 2
   - Your board should have a maximum dimensions of 1400mil x 1900mil. 
 - Step 3: Move your components into the board outline
-   - Before moving the components into the board outline, think about how your board will look, for example, you may want to put a battery clip and Speaker at the edge of your board. 
+   - Before moving the components into the board outline, think about how your board will look, for example, **you may want to put a battery clip and Speaker** at the edge of your board. ![image_33_eagle.png](/image_33_eagle.png) ![image_34_eagle.png](/image_34_eagle.png)
    - Refer to the schematic and move the components one by one into the board space.  (inside the white dimension box). For example, resistor R1 and LED D1 will be in series, so naturally, we would like to put them next to each other. Capacitor C2 is connected to Pin 7 of LM386, therefore, placing C2 next to Pin 7 is probably a good idea. Untangle the airwire as much as possible. 
 - Step 4: Route the PCB board (Manual route or Auto route)
-Method 1 - Autoroute: Recall A04 
-Method 2- manual route:  Recall from A03. To create routes, use the route icon  . Once you click the icon you’ll have new options in the taskbar at the top. Make sure these are set to the following before creating routes:
+  - Method 1 - Autoroute: Recall Part 4 
+  - Method 2 - manual route:  Recall from Part 3. To create routes, use the route icon  . Once you click the icon you’ll have new options in the taskbar at the top. Make sure these are set to the following before creating routes:
 
 Change “1 Top” to “16 Bottom”.
 Change width to 20.
