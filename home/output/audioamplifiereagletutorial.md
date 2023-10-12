@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:48:20.430Z
+date: 2023-10-12T17:50:35.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -202,8 +202,8 @@ You’ll also want to add a **copper pour**, which reduces the amount of cutting
 - Step 7: DRC final check
 Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the [DRC file](https://drive.google.com/file/d/14yaIoD3b_AxZsY02rPRMj3GIsdx3aoDL/view?usp=sharing) (same one as before) to find places where your circuit has issues.
    - If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
-   - If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes () and rerouting. You may also need to move around components, rotate them, etc. 
-   - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar:  Alternatively, you can enter ripup * in the command prompt to do the same thing.
+   - If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes (![image_40_eagle.png](/image_40_eagle.png)) and rerouting. You may also need to move around components, rotate them, etc. 
+   - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar: ![image_41_eagle.png](/image_41_eagle.png) Alternatively, you can enter ripup * in the command prompt to do the same thing.
   
 **Exporting your Board from Eagle**
 Do these steps after your layout is completed, 100% routed, and passes the DRC with no errors.
