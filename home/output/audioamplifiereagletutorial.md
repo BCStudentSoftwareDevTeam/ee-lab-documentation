@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:37:21.446Z
+date: 2023-10-12T17:38:43.145Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -192,13 +192,13 @@ In the past assignments, we have learned several Eagle layout functions includin
    - In both of the cases above, you also want to leave clearance between pads, routes, and the board edge. This is because the circuit mill is not perfectly accurate, and may sometimes cut too close to a pad or route, creating an open circuit. As we know, openings are bad. Not as bad as shorts, but still bad.
 - Step 5: Copper pour
 You’ll also want to add a **copper pour**, which reduces the amount of cutting the mill has to do, as well as creates a large, grounded area on the board to reduce the possible noise in the system. To do this:
-Go back to Layout, and select the polygon tool: 
-On the menu, switch “1 Top” to “16 Bottom” since everything is on the bottom layer of our board.
-Change the “Isolation” value to 20 (meaning there’ll be 20 mils between the copper pour and any traces that are not connected to it)
-Then, draw a polygon around the entire board.
-When the polygon is closed, a “Signal Name:” dialog opens. Put GND in the text box.
-Lastly, hit the ratsnest button. You should see a large blue section appear on the board. 
-To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ripup GND;  and hit enter. 
+   - Go back to Layout, and select the polygon tool: 
+   - On the menu, switch “1 Top” to “16 Bottom” since everything is on the bottom layer of our board.
+   - Change the “Isolation” value to 20 (meaning there’ll be 20 mils between the copper pour and any traces that are not connected to it)
+   - Then, draw a polygon around the entire board.
+   - When the polygon is closed, a “Signal Name:” dialog opens. Put GND in the text box.
+   - Lastly, hit the ratsnest button. You should see a large blue section appear on the board. 
+   - To get rid of the copper pour (which will make viewing your other traces easier), in the command bar, type in ripup GND;  and hit enter. 
 Step 7: DRC final check
 Once you have your board 100% routed, we’ll want to run a design rules check (DRC) again. A DRC checks your circuit board for issues that may occur when cutting the PCB with the mill. Use the DRC file (same one as before) to find places where your circuit has issues.
 If there are no issues, you’ll see a message at the bottom status bar saying “DRC: No errors.” Congratulations, you’re done!
