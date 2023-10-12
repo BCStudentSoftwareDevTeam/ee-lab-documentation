@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T17:27:41.784Z
+date: 2023-10-12T17:30:32.141Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -178,15 +178,13 @@ In the past assignments, we have learned several Eagle layout functions includin
    - Before moving the components into the board outline, think about how your board will look, for example, **you may want to put a battery clip and Speaker** at the edge of your board. ![image_33_eagle.png](/image_33_eagle.png) ![image_34_eagle.png](/image_34_eagle.png)
    - Refer to the schematic and move the components one by one into the board space.  (inside the white dimension box). For example, resistor R1 and LED D1 will be in series, so naturally, we would like to put them next to each other. Capacitor C2 is connected to Pin 7 of LM386, therefore, placing C2 next to Pin 7 is probably a good idea. Untangle the airwire as much as possible. 
 - Step 4: Route the PCB board (Manual route or Auto route)
-  - Method 1 - Autoroute: Recall Part 4 
-  - Method 2 - manual route:  Recall from Part 3. To create routes, use the route icon  . Once you click the icon you’ll have new options in the taskbar at the top. Make sure these are set to the following before creating routes:
+  - ==**Method 1 - Autoroute: Recall Part 4**==
+  - **Method 2 - Manual Route:  Recall from Part 3**. To create routes, use the route icon ![image_36_eagle.png](/image_36_eagle.png) . Once you click the icon you’ll have new options in the taskbar at **the top**. Make sure these are set to the following before creating routes:
 
-Change “1 Top” to “16 Bottom”.
-Change width to 20.
+**Change “1 Top” to “16 Bottom”.**
+**Change width to 20.**
 
-	
-
-**Tips: **
+**Tips:**
 Unlike the schematic, as you route you’ll want to avoid crossing wires. Because these traces will be copper lines. Unlike jumper wires that have a rubber outside, copper is a pure conductor. So those crossed paths result in shorts between the two nets/nodes. As we know, shorts are bad. Very bad!
 Similarly, the green pads represent where components will be connected to the board, known as pads. These pads are electrically conductive too, so you don’t want to have a route going over a pad, unless it’s meant to connect there. Each pad typically has a drill hole in the middle, where your component will be mounted.
 Most of the time, the software is smart enough that won’t let you route with a cross wire or going through a pad. However, when you move a wired component, the trace will be moved and could cross a pad or another trace. DRC check will help you figure that out. 
