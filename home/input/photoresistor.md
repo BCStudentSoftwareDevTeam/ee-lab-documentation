@@ -2,7 +2,7 @@
 title: PhotoResistor
 description: 
 published: true
-date: 2023-10-24T20:23:28.178Z
+date: 2023-10-24T20:24:17.188Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-31T00:16:57.528Z
@@ -10,7 +10,7 @@ dateCreated: 2023-03-31T00:16:57.528Z
 
 The Pulse Sensor is a well-designed low-power plug-and-play heart-rate sensor for the Arduino. The pulse sensor shines light through the skin and measures the reflection with the photodetector. The working of the sensor can be divided into two parts, one is heart rate measurement and another is blood oxygen level measurement.
 
-<img src="/pulsesensor/image1.png" width="500" height="500">
+![pulsensor.png](/pulsesensor/image1.png =550x)
 ###### Materials
 - PhotoResistor x 1
 - 220 ohms resistor x 1
