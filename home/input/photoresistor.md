@@ -2,7 +2,7 @@
 title: PhotoResistor
 description: 
 published: true
-date: 2023-10-23T20:00:20.199Z
+date: 2023-10-24T20:23:28.178Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-31T00:16:57.528Z
@@ -22,7 +22,7 @@ In our lab, we used the Pulse sensor to generate graphs that indicate the cardio
 
 The setup will look like the following 
 ![image1.png](/photoresistor/image1.png =450x)
-![breadboard.png](/photoresistor/breadboard.png =600x)
+![breadboard.png](/photoresistor/breadboard.png =500x)
 
 The red wire is connected from one end of the photoresistor to the 5V port
 The black wire connects from the end of the resistor to any of the GND port
