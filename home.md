@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-03-20T23:46:00.410Z
+date: 2023-10-25T00:42:05.168Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -15,6 +15,7 @@ Below is the list of types of equipment available.
 
 - [Input *Equipment that are used to used to provide data or signals to a system for processing.*](/home/input)
 - [Output *Equipment that displays, records, or otherwise conveys the results of an electrical or electronic circuit.*](home/output)
+- [Audio Amplifier Eagle Tutorial](home/output/audioamplifiereagletutorial)
 {.links-list}
 
 If you have any questions or need assistance, don't hesitate to contact us or leave a comment belong.
