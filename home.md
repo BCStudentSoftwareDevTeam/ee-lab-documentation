@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-10-25T00:55:27.035Z
+date: 2023-10-25T00:57:46.972Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -18,8 +18,6 @@ Welcome to the Electricity and Electronics Equipment Resource page for students!
 
 Below is the list of types of equipment available.
 - [Arduino Projects *Arduino Input and Output Projects*](home/Arduino_page)
-- [Input *Equipment that are used to used to provide data or signals to a system for processing.*](/home/input)
-- [Output *Equipment that displays, records, or otherwise conveys the results of an electrical or electronic circuit.*](home/output)
 - [Audio Amplifier Eagle Tutorial](home/output/audioamplifiereagletutorial)
 {.links-list}
 
