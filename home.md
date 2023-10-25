@@ -2,14 +2,14 @@
 title: Home
 description: 
 published: true
-date: 2023-10-25T00:57:46.972Z
+date: 2023-10-25T01:00:02.048Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
 ---
 
 # Engineering Technologies and Applied Design Laboratory Wiki
-Welcome to the official Engineering, Technologies, and Applied Design Laboratory Wiki. In the next section you can the find Electricity and Electronics Equipment Resource page. We're located at 126 N Main St, Berea, KY 40403. 
+Welcome to the official Engineering, Technologies, and Applied Design Laboratory Wiki. In the next section you can the find Electricity and Electronics Equipment Resource page. We're located at [126 N Main St, Berea, KY 40403](https://maps.app.goo.gl/LdMhJzirXrv1xQUf8). 
 ![danforth_building.png](/danforth_building.png =500x)
 - [Teaching and Lab Assistant Information](home/TA_Info)
 {.links-list}
