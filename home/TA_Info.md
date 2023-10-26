@@ -2,7 +2,7 @@
 title: Teaching and Lab Assistant Information
 description: 
 published: true
-date: 2023-10-26T23:47:43.550Z
+date: 2023-10-26T23:50:31.341Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-25T01:09:31.177Z
@@ -21,8 +21,15 @@ Room: B18
 
 Trayvion Newton
 Hours: 5-7PM Monday, Tuesday and Wednesday
-
 Room: B18
+
+### Lab Assistant
+Andrey Brevett
+Hours: 7-9pm Sunday, Monday, Wednesday, and Thursday
+Room: B18
+
+### Freshman Teaching Assistants
+
 
 
 # Misc
@@ -30,7 +37,7 @@ Room: B18
 Mason Corkern 
 Lab + Teaching Assistant
 Course: CSC 286 
-Hours: MWF 1400-1600 and TT 1900-2100
+Hours: MWF 2-4pm and TT 7-9pm
 Room: Makers Space
 
 # ETAD Lab Wiki Contributors 
