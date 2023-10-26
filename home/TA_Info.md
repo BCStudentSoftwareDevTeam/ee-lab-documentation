@@ -2,7 +2,7 @@
 title: Teaching and Lab Assistant Information
 description: 
 published: true
-date: 2023-10-26T23:57:34.781Z
+date: 2023-10-26T23:58:18.482Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-25T01:09:31.177Z
@@ -11,7 +11,6 @@ dateCreated: 2023-10-25T01:09:31.177Z
 # ETAD
 ### Course Teaching Assistants 
 Remington White
-Teaching Assistant
 Hours: 7-9PM Tuesday, Wednesday and Friday
 Room: B18
 
