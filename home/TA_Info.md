@@ -2,7 +2,7 @@
 title: Teaching and Lab Assistant Information
 description: 
 published: true
-date: 2023-10-26T23:55:52.534Z
+date: 2023-10-26T23:57:34.781Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-25T01:09:31.177Z
@@ -48,30 +48,4 @@ Lab + Teaching Assistant
 Course: CSC 286 
 Hours: MWF 2-4pm and TT 7-9pm
 Room: Makers Space
-
-# ETAD Lab Wiki Contributors 
-
-Mason Corkern
-Current contribuitor
-Contributions:
-Renovating the home page.
-Creating this page.
-Forking ETAD tutorials to the wiki.
-
-Oussema Khlifi
-Current contribuitor. 
-Contributions:
-TBD
-
-Collins Kandongwe
-Past contribuitor.
-Contributions:
-TBD
-
-Remington White
-Current contribuitor.
-Contributions:
-TBD
-
-The server that hosts this site by the Programmers space. 
 
