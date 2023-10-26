@@ -2,7 +2,7 @@
 title: Teaching and Lab Assistant Information
 description: 
 published: true
-date: 2023-10-26T23:50:31.341Z
+date: 2023-10-26T23:53:19.283Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-25T01:09:31.177Z
@@ -29,8 +29,17 @@ Hours: 7-9pm Sunday, Monday, Wednesday, and Thursday
 Room: B18
 
 ### Freshman Teaching Assistants
+Abdul
+Hours: Sunday, Monday, Tuesday, Wednesday, and Friday
+Room: B18
 
+Kaifu
+Hours: 7-9PM Sunday, Monday, and Thursday
+Room: B18
 
+D'Monique
+Hours: 7-9PM Sunday, Monday, and Thursday
+Room: B18
 
 # Misc
 ![pxl_20230909_213559807.jpg](/pxl_20230909_213559807.jpg =100x)
