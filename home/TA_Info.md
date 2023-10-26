@@ -2,7 +2,7 @@
 title: Teaching and Lab Assistant Information
 description: 
 published: true
-date: 2023-10-26T23:53:19.283Z
+date: 2023-10-26T23:55:52.534Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-25T01:09:31.177Z
