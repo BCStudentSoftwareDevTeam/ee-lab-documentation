@@ -2,14 +2,14 @@
 title: Home
 description: 
 published: true
-date: 2023-10-27T00:03:08.546Z
+date: 2023-10-27T00:41:40.317Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
 ---
 
 # Engineering Technologies and Applied Design Laboratory Wiki
-Welcome to the official Engineering, Technologies, and Applied Design Laboratory Wiki. In the next section you can the find Electricity and Electronics Equipment Resource page. 
+Welcome to the official Engineering, Technologies, and Applied Design Laboratory Wiki. Here, you'll find many different resources for the lab.  
 We're located at [126 N Main St, Berea, KY 40403](https://maps.app.goo.gl/LdMhJzirXrv1xQUf8). 
 Hours: 0800 to 2200 Monday through Friday. 1900 to 2100 Saturday through Sunday.
 ![danforth_building.png](/danforth_building.png =550x)
