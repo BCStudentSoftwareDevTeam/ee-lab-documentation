@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-10-26T23:59:59.952Z
+date: 2023-10-27T00:03:08.546Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -25,7 +25,7 @@ Below is the list of types of equipment available.
 {.links-list}
 
 # Site Contributors 
-- [Site Contributors List](home/output/sitecontributorslist)
+- [Site Contributors List](home/sitecontributorslist)
 {.links-list}
 
 If you have any questions or need assistance, don't hesitate to contact us or leave a comment below.
