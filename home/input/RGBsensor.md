@@ -2,7 +2,7 @@
 title: RGB Sensor
 description: 
 published: true
-date: 2023-10-30T18:33:32.301Z
+date: 2023-10-30T18:34:11.692Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
