@@ -1,8 +1,8 @@
 ---
-title: RGB Sensor
+title: RGBSensor
 description: 
 published: true
-date: 2023-10-30T18:34:57.342Z
+date: 2023-10-30T18:35:50.452Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
