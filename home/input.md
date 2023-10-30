@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-09-03T04:00:31.840Z
+date: 2023-10-30T18:24:29.359Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -21,7 +21,7 @@ Mechanical components that can be utilized to open or close a circuit or activat
 
 ### Sensors
 Sensors can detect changes in the surrounding environment and convert them into electrical signals for use by an electronic system.
-
+- [RGB Sensor](/home/input/RGBsensor)
 - [Tilt Sensor *Tilt sensors allow you to detect orientation or inclination. They are small, inexpensive, low-power and easy-to-use. If used properly, they will not wear out. Their simplicitiy makes them popular for toys, gadgets and appliances.*](/home/input/tiltsensor)
 - [Temperature/humidity sensors *A temperature/humidity sensor is a device that measures and reports the temperature and humidity of the surrounding environment. It typically consists of a small chip or sensor element that detects changes in temperature and/or humidity and converts these changes into electrical signals that can be processed and displayed.*](/home/input/temperaturesensors)
 - [Light sensors *Coming soon*](/home/input/lightsensors)
