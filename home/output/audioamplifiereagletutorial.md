@@ -2,14 +2,14 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-31T23:57:01.601Z
+date: 2023-10-31T23:58:19.490Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
 ---
 
 # Audio Amplifier Eagle Tutorial
-## ***TinkerCAD to Eagle section/Part 1:***
+## TinkerCAD to Eagle section/Part 1:
 *****Check out your first PCB Layout*****
 Eagle allows us to do two main things: Create schematics, and use those schematics to create printed circuit board (PCB) layouts. The layouts are the digital version of the circuit boards, such as the green ones inside your laptop. For now, we will just look at the layout. 
 
@@ -22,7 +22,7 @@ Eagle allows us to do two main things: Create schematics, and use those schemati
 6. Copy or move the .brd file downloaded in Step 4 into the projects folder shown above (the easiest way is to drag it from your Downloads folder and drop it onto the projects folder). 
 7. In the Eagle Control Panel, double-click the board file. You should see a new window appear with the title starting as "1 - Board - ...".
 
-## ***How To Move and Setup Board Outline/Part 2:***
+## How To Move and Setup Board Outline/Part 2:
 In Part 1, you learned how to export layouts from TinkerCAD to Eagle. For this homework, we will learn how to edit the layout. 
 1. Head BACK to TinkerCAD and go to the circuit you created with the three resistors in 4.4. 
 2. Recall from “Check out your first PCB Layout” section in Part 1. Export an Eagle “.BRD” file from the TinkerCAD and open it in Eagle software.  **Make sure you save this PCB layout, we will use it for Part 3 next week.**
@@ -38,7 +38,7 @@ In Part 1, you learned how to export layouts from TinkerCAD to Eagle. For this h
 - Click the “move” function ![image_6_eagle.png](/image_6_eagle.png)or type “move” in the command line. Find the resistor you want to move, and ***left click*** on the “+” on the resistor symbol to pick up the component. After picking up the component, you may ***Right click*** to rotate the component or drag your mouse to move the components. ***Left click*** to confirm the change.  Move all the components to the left corner. Below is an example of a 2 resistor circuit; ***you should have 3 resistors***. 
 - Use the same move function to shrink the yellow board outline as shown below. (I am using 2 resistors as an example here; ***you should have 3 resistors***) 
 ![image_7_eagle.png](/image_7_eagle.png)
-## *** Loading DRC files/Part 3***
+## Loading DRC files/Part 3
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. For this homework, we will learn how to connect components with copper traces in the layout software. 
 <!---
 1. placeholder to fix number Markdown issue
@@ -57,7 +57,7 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 <!---
 1. placeholder for proper number formatting 
 1. -->
-***Part 4***
+## Autoroute/Part 4:
 
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. In Part 3, you learned how to connect components with copper traces manually in layout software. For this homework, we will learn how to perform an Autoroute.
 1. Head back to TinkerCAD and go to the parallel circuit you created for circuit 4.
@@ -70,7 +70,7 @@ In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part
 ![image_13_eagle.png](/image_13_eagle.png)
 7. DRC check. Open DRC again, click “Check”. Make sure there are no errors popping up. In the **status bar**, you should see “DRC: No errors.”
 
-***Part 5***
+## How to draw schematics/Part 5
 <!---
 1. placeholder for proper number formatting 
 1. -->
