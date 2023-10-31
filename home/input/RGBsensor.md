@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-10-31T23:45:23.214Z
+date: 2023-10-31T23:45:40.433Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -17,7 +17,7 @@ For the wiring, you would connect SDA to pin A4, SCL to A5, GND to GND, and fina
 #include "Adafruit_TCS34725.h"
  
 // Pick analog outputs, for the UNO these three work well
-// use 560  ohm resistor between Red & Blue, 1K for green (its brighter)
+// use ~560  ohm resistor between Red & Blue, ~1K for green (its brighter)
 #define redpin 3
 #define greenpin 5
 #define bluepin 6
