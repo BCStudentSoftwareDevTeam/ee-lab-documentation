@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-31T23:59:06.182Z
+date: 2023-10-31T23:59:31.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -205,7 +205,7 @@ Once you have your board 100% routed, we’ll want to run a design rules check (
    - If there are issues, a window will open. Click each issue, and it will show you where in the board you need to fix. Fix the issues by “ripping up” routes (![image_40_eagle.png](/image_40_eagle.png)) and rerouting. You may also need to move around components, rotate them, etc. 
    - Sometimes it’s useful to ripup all routes to start over completely (yes, you’ll likely be doing this at least once). After you press the ripup button above, click the green light in the toolbar: ![image_41_eagle.png](/image_41_eagle.png) Alternatively, you can enter ```ripup *``` in the command prompt to do the same thing.
   
-**Exporting your Board from Eagle**
+## Exporting your Board from Eagle/Part 7:
 Do these steps after your layout is completed, 100% routed, and passes the DRC with no errors.
 
 1. First, download the following file:
