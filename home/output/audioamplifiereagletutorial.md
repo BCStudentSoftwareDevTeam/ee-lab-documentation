@@ -2,14 +2,14 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-12T18:11:38.464Z
+date: 2023-10-31T23:46:35.743Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
 ---
 
 # Audio Amplifier Eagle Tutorial
-***Part 1:***
+## ***Part 1:***
 *****Check out your first PCB Layout*****
 Eagle allows us to do two main things: Create schematics, and use those schematics to create printed circuit board (PCB) layouts. The layouts are the digital version of the circuit boards, such as the green ones inside your laptop. For now, we will just look at the layout. 
 
