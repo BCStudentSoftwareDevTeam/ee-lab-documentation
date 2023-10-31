@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-31T23:58:19.490Z
+date: 2023-10-31T23:59:06.182Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -120,7 +120,7 @@ These two files are linked automatically, but it is easy to accidentally break t
 	If you change one, change them both. They are linked by their filename, and changing one will break the link. 
 - **Rule #4**: Always switch back and forth between the schematic and board using the  quick button. This ensures you are looking at the linked files (and not some other spurious file you may have created). 
 
-**Part 6**
+## Making AudioAmplifer/Part 6:
 <!---
 1. placeholder for proper number formatting 
 1. -->
