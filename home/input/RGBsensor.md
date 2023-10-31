@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-10-31T20:28:21.011Z
+date: 2023-10-31T23:45:23.214Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -12,8 +12,8 @@ TCS34725 RGB Sensor Tutorial by Cortez Watkins
  
 This sensor measures the red, blue and green lights in the area as well as light sensing values. Below is all the coding for the Arduino code. 
 For the wiring, you would connect SDA to pin A4, SCL to A5, GND to GND, and finally Vin to VCC. From there, go to the Sketch tap and hover over Include Library then select Manage Libraries. Once there, type in Adafruit TCS34725 in the search box. Once you find it, install it and then include it on the code itself. Then, copy and paste the code down below. 
-
-~~~#include <Wire.h>
+```
+#include <Wire.h>
 #include "Adafruit_TCS34725.h"
  
 // Pick analog outputs, for the UNO these three work well
@@ -85,8 +85,8 @@ void loop() {
   analogWrite(greenpin, gammatable[(int)green]);
   analogWrite(bluepin, gammatable[(int)blue]);
  
-}~~~
-
+}
+```
 Testing: To test the code, go to the Serial Monitor located in the Tools tap. From there, go to the bottom when you see ‘baud’. Select it and pick 9600 baud. Once done, press the Reset button on your Arduino and you should see the RGB Sensor start running. 
 
 For more information, check out this link. 
