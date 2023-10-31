@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-31T23:56:40.641Z
+date: 2023-10-31T23:57:01.601Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -38,7 +38,7 @@ In Part 1, you learned how to export layouts from TinkerCAD to Eagle. For this h
 - Click the “move” function ![image_6_eagle.png](/image_6_eagle.png)or type “move” in the command line. Find the resistor you want to move, and ***left click*** on the “+” on the resistor symbol to pick up the component. After picking up the component, you may ***Right click*** to rotate the component or drag your mouse to move the components. ***Left click*** to confirm the change.  Move all the components to the left corner. Below is an example of a 2 resistor circuit; ***you should have 3 resistors***. 
 - Use the same move function to shrink the yellow board outline as shown below. (I am using 2 resistors as an example here; ***you should have 3 resistors***) 
 ![image_7_eagle.png](/image_7_eagle.png)
-***Part 3***
+## *** Loading DRC files/Part 3***
 In Part 1, you learned how to export Schematics from TinkerCAD to Eagle. In Part 2, you learned how to edit and modify the PCB layout. For this homework, we will learn how to connect components with copper traces in the layout software. 
 <!---
 1. placeholder to fix number Markdown issue
