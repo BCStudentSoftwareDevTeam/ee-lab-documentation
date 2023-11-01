@@ -2,7 +2,7 @@
 title: Audio Amplifier Eagle Tutorial
 description: 
 published: true
-date: 2023-10-31T23:59:31.519Z
+date: 2023-11-01T00:15:05.245Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-22T00:22:01.945Z
@@ -164,7 +164,7 @@ If you get this warning, open up both files and it should go away. DON’T make 
 If you change one, change them both. They are linked by their filename, and changing one will break the link.
 **Rule #4.** Always switch back and forth between the schematic and board using the quick button:![image_32_eagle.png](/image_32_eagle.png) . This ensures you are looking at the linked files (and not some other spurious file you may have created). 
   
-***How to use Eagle Layout Editor***
+## How to use Eagle Layout Editor
   
 In the past assignments, we have learned several Eagle layout functions including rotation, adjust the size, apply DRC, manual route and auto route. In this assignment, you will use what you have learned so far to complete the Audio amplifier layout. You will also learn how to apply copper pour and how to export files for production. 
  
