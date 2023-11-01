@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-11-01T00:21:30.371Z
+date: 2023-11-01T00:22:37.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -23,11 +23,13 @@ Mechanical components that can be utilized to open or close a circuit or activat
 
 ### Sensors
 Sensors can detect changes in the surrounding environment and convert them into electrical signals for use by an electronic system.
+<!---
+- [Light sensors *Coming soon*](/home/input/lightsensors)
+- [Motion sensors *Coming soon*](/home/input/motionsensors)
+-->
 - [RGBSensor](/home/input/RGBsensor)
 - [Tilt Sensor *Tilt sensors allow you to detect orientation or inclination. They are small, inexpensive, low-power and easy-to-use. If used properly, they will not wear out. Their simplicitiy makes them popular for toys, gadgets and appliances.*](/home/input/tiltsensor)
 - [Temperature/humidity sensors *A temperature/humidity sensor is a device that measures and reports the temperature and humidity of the surrounding environment. It typically consists of a small chip or sensor element that detects changes in temperature and/or humidity and converts these changes into electrical signals that can be processed and displayed.*](/home/input/temperaturesensors)
-- [Light sensors *Coming soon*](/home/input/lightsensors)
-- [Motion sensors *Coming soon*](/home/input/motionsensors)
 - [Infrared sensors *An IR distance sensor (short for Infrared distance sensor) is a device that can measure the distance between itself and an object using infrared light. It emits a beam of infrared light and measures the time it takes for the light to reflect off an object and return to the sensor.*](/home/input/infraredsensors)
 - [Utrasonic sensors *An ultrasonic sensor is a type of sensor that uses sound waves with frequencies higher than the upper audible limit of human hearing (typically above 20 kHz) to detect the distance to, or presence of, an object.*](/home/input/utrasonicsensors)
 - [PhotoResistor *A photoresistor, also known as a photocell, is an electronic component that senses the amount of light in its environment and changes its resistance accordingly.*](/home/input/photoresistor)
