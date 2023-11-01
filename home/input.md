@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-11-01T00:23:27.249Z
+date: 2023-11-01T00:24:27.942Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -48,16 +48,18 @@ Variable inputs can be adjusted to control the level of a signal or the volume o
 
 ### Audio Inputs
 Audio inputs are components that convert sound waves into electrical signals for processing or recording audio.
-
-- [Microphones *A Microphone sensor helps an electronic product capture sound waves and convert that energy into electrical energy so it can be processed and used in various applications.*](/home/input/microphones)
+<!---
 - [XLR Inputs *Coming soon*](/home/input/xlrinputs)
+-->
+- [Microphones *A Microphone sensor helps an electronic product capture sound waves and convert that energy into electrical energy so it can be processed and used in various applications.*](/home/input/microphones)
 {.links-list}
 
-
+<!---
 ### Digital Inputs
 Digital inputs are input devices utilized for digital input and interaction with electronic devices. 
 
 - [Touchscreens *Coming soon*](/home/input/touchscreens)
 - [Keyboards *Coming soon*](/home/input/keyboards)
 {.links-list}
+<!---
 
