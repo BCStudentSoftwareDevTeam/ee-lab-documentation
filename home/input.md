@@ -2,7 +2,7 @@
 title: Input Components
 description: 
 published: true
-date: 2023-11-01T00:22:37.899Z
+date: 2023-11-01T00:23:27.249Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:02:55.057Z
@@ -36,13 +36,14 @@ Sensors can detect changes in the surrounding environment and convert them into 
 - [Pulse Sensor *The Pulse Sensor is a well-designed low-power plug-and-play heart-rate sensor for the Arduino. The pulse sensor shines light through the skin and measures the reflection with the photodetector. The working of the sensor can be divided into two parts, one is heart rate measurement and another is blood oxygen level measurement.*](/home/input/photoresistor)
 {.links-list}
 
-
+<!---
 ### Variable Inputs
 Variable inputs can be adjusted to control the level of a signal or the volume of an audio output.
 
 - [Potentiometers *Coming soon*](/home/input/potentiometers)
 - [Variable resistors *Coming soon*](/home/input/variableresistors)
 {.links-list}
+-->
 
 
 ### Audio Inputs
