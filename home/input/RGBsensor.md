@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-11-02T23:49:42.908Z
+date: 2023-11-02T23:51:00.073Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -346,7 +346,7 @@ analogWrite (led, c);
 
 
 You should get the following result. 
-
+![result_1_2023.png](/result_1_2023.png)
 
 
 
