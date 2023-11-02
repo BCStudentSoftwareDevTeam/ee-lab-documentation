@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-11-02T23:48:53.290Z
+date: 2023-11-02T23:49:42.908Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -105,7 +105,7 @@ For the wiring, you would connect SDA to pin A4, SCL to A5, GND to GND, and fina
 
 
 
-
+```
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
  
@@ -179,7 +179,7 @@ void loop() {
   analogWrite(bluepin, gammatable[(int)blue]);
  
 }
-
+```
 Testing: To test the code, go to the Serial Monitor located in the Tools tap. From there, go to the bottom when you see ‘baud’. Select it and pick 9600 baud. Once done, press the Reset button on your Arduino and you should see the RGB Sensor start running. 
 
 For more information, check out this link. 
@@ -310,7 +310,7 @@ SCL clock pin with an A5 pin on Arduino Uno.
 GND with a ground pin on Arduino Uno.
 
 Next, install Adafruit_TCS34725 by going to tools – > manage libraries in your Arduino IDE. After installing the package, put the following code in your Arduino.
-
+```
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
 int led = 5;
@@ -338,7 +338,7 @@ void loop(void) {
 analogWrite (led, c); 
   delay(100);
 }
-
+```
 
 
 
