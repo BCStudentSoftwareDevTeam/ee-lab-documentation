@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-11-02T23:51:00.073Z
+date: 2023-11-03T00:44:18.601Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -297,17 +297,12 @@ Here’s what the connection should look like:
                                                         Figure 1
 
 
-
-
-
-
-
 Connect: 
-The LED pin to any digital pin
-SDA data pin to an A4 pin on Arduino Uno.
-SCL clock pin with an A5 pin on Arduino Uno.
-3.3 V with a 3V3 pin on Arduino Uno
-GND with a ground pin on Arduino Uno.
+- The LED pin to any digital pin
+- SDA data pin to an A4 pin on Arduino Uno.
+- SCL clock pin with an A5 pin on Arduino Uno.
+- 3.3 V with a 3V3 pin on Arduino Uno
+- GND with a ground pin on Arduino Uno.
 
 Next, install Adafruit_TCS34725 by going to tools – > manage libraries in your Arduino IDE. After installing the package, put the following code in your Arduino.
 ```
@@ -340,17 +335,5 @@ analogWrite (led, c);
 }
 ```
 
-
-
-
-
-
 You should get the following result. 
 ![result_1_2023.png](/result_1_2023.png)
-
-
-
-
-
-
-
