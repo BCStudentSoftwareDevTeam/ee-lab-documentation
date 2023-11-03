@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-11-03T00:45:41.732Z
+date: 2023-11-03T00:45:52.415Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -285,7 +285,7 @@ Pin 4: SCL in the TCS34725 color sensor refers to the serial clock line. It is a
 
 Pin 5: SDA in the TCS34725 color sensor refers to the serial data line. It is a communication line that is used in the I2C protocol to transmit data between the sensor and the microcontroller. The SDA line carries data in both directions, from the microcontroller to the sensor and from the sensor to the microcontroller. The data transfer is coordinated by the clock signals sent on the SCL line.
 
-Pin 6: The INT (Interrupt) pin in the TCS34725 color sensor is used to generate an interrupt signal. It is an output pin that is used to indicate to the microcontroller that the sensor has finished measurement and data are available for reading. The INT pin can be configured to generate an interrupt on various events, such as the completion of a measurement or the detection of a certain color threshold. The interrupt signal is used to notify the microcontroller and trigger the appropriate action, such as reading the data from the sensor or processing the data for the application.
+**Pin 6**: The INT (Interrupt) pin in the TCS34725 color sensor is used to generate an interrupt signal. It is an output pin that is used to indicate to the microcontroller that the sensor has finished measurement and data are available for reading. The INT pin can be configured to generate an interrupt on various events, such as the completion of a measurement or the detection of a certain color threshold. The interrupt signal is used to notify the microcontroller and trigger the appropriate action, such as reading the data from the sensor or processing the data for the application.
 
 **Pin 7**: The LED in the TCS34725 color sensor refers to the light-emitting diode. It is an integral part of the color sensor and is used to illuminate the object being measured. The LED emits light in the visible spectrum and the reflected light from the object is then captured by the sensor and converted into a digital signal that represents the color information of the object. The LED is typically controlled by the microcontroller, which can turn it on or off as needed for a specific application.
 
