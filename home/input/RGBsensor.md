@@ -2,7 +2,7 @@
 title: RGBSensor
 description: 
 published: true
-date: 2023-11-03T00:46:19.912Z
+date: 2023-11-03T00:46:32.012Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-30T18:24:46.333Z
@@ -273,7 +273,7 @@ Light-emitting diode
 
 As you can see, there are two power volts: 5 volts and 3.3 volts. Either of them works perfectly. 
 
-More Description: 
+**More Description**: 
 
 **Pin 1**: The VIN pin in the TCS34725 color sensor is the input voltage pin, it provides power to the device. The voltage applied to this pin should be within the range specified by the manufacturer to ensure the proper operation of the sensor.
 
