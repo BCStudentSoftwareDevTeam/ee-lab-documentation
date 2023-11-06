@@ -2,11 +2,14 @@
 title: Site Change Log
 description: 
 published: true
-date: 2023-11-06T20:28:10.671Z
+date: 2023-11-06T20:31:31.861Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-06T20:28:10.671Z
 ---
 
-# Header
-Your content here
+# Change Logs
+11/6/2023
+Added change log page
+Renamed "Site Contributors" to "Site Contributions." 
+Added more information under Remington and Oussema's contributions list. 
