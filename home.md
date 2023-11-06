@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-10-27T00:41:40.317Z
+date: 2023-11-06T20:27:54.963Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -24,8 +24,9 @@ Below is the list of types of equipment available.
 - [Audio Amplifier Eagle Tutorial](home/output/audioamplifiereagletutorial)
 {.links-list}
 
-# Site Contributors 
+# Site Contributions 
 - [Site Contributors List](home/sitecontributorslist)
+- [Site Change Log](home/sitechangelog)
 {.links-list}
 
 If you have any questions or need assistance, don't hesitate to contact us or leave a comment below.
