@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-11-08T00:40:11.712Z
+date: 2023-11-08T01:45:29.860Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -27,6 +27,7 @@ Below is the list of types of equipment available.
 # Site Contributions 
 - [Site Contributors List](home/sitecontributorslist)
 - [Site Change Log](home/sitechangelog)
+- [ETAD Faculty](https://www.berea.edu/academics/departments-programs/engineering-technologies-and-applied-design/faculty-staff)
 {.links-list}
 
 If you have any questions or need assistance, don't hesitate to contact us or leave a comment below.
