@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-11-08T01:45:48.288Z
+date: 2023-11-10T20:19:53.092Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T23:01:06.722Z
@@ -11,7 +11,7 @@ dateCreated: 2023-03-20T23:01:06.722Z
 # Engineering Technologies and Applied Design Laboratory Wiki
 Welcome to the official Engineering, Technologies, and Applied Design Laboratory Wiki. Here, you'll find many different resources for the lab.  
 We're located at [126 N Main St, Berea, KY 40403](https://maps.app.goo.gl/LdMhJzirXrv1xQUf8). 
-Hours: 0800 to 2200 Monday through Friday. 1900 to 2100 Saturday through Sunday.
+Hours: 0800 to 2200 Monday through Friday and 1900 to 2100 Saturday through Sunday.
 ![danforth_building.png](/danforth_building.png =550x)
 # Teaching and Lab Assistant Information
 - [Teaching and Lab Assistant Information](home/TA_Info)
@@ -30,4 +30,4 @@ Below is the list of types of equipment available.
 - [ETAD Faculty & Staff](https://www.berea.edu/academics/departments-programs/engineering-technologies-and-applied-design/faculty-staff)
 {.links-list}
 
-If you have any questions or need assistance, don't hesitate to contact us or leave a comment below.
+If you have any questions or need assistance, please get in touch with us or leave a comment below.
