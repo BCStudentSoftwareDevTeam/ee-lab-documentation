@@ -1,8 +1,8 @@
 ---
-title: Site Change Log
+title: Site Changelog
 description: 
 published: true
-date: 2023-11-06T20:31:31.861Z
+date: 2023-11-10T20:30:33.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-06T20:28:10.671Z
