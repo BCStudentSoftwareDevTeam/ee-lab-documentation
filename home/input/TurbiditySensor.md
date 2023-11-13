@@ -2,7 +2,7 @@
 title: TurbiditySensor
 description: 
 published: true
-date: 2023-11-13T19:44:36.383Z
+date: 2023-11-13T19:44:57.614Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T19:44:36.383Z
@@ -70,7 +70,7 @@ N/A
 
 
 **CODE**
-``
+```
 void setup() {
   Serial.begin(9600);
  
@@ -84,7 +84,7 @@ void loop() {
   Serial.println();
   delay(1000);
 }
-``
+```
 
 
 
