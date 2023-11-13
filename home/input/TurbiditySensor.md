@@ -2,7 +2,7 @@
 title: TurbiditySensor
 description: 
 published: true
-date: 2023-11-13T19:44:57.614Z
+date: 2023-11-13T19:45:09.223Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T19:44:36.383Z
@@ -86,12 +86,8 @@ void loop() {
 }
 ```
 
-
-
-
-
-YOUTUBE TUTORIAL
-
+**YOUTUBE TUTORIAL
+**
 Also helps with the turbidity sensor schematics
 
 https://www.youtube.com/watch?v=POsJc-tM2ZI  
